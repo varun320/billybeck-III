@@ -1,0 +1,29 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# OAuth client secret files and ADC credentials
+secrets/
+*client_secret*.json
+*application_default_credentials*.json
+
+# Per-environment MCP configs that may contain inline credentials
+.mcp.prod.json
+.mcp.local.json
+
+# Claude Code local settings — may contain env secrets for MCP
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/mcp.json.example
+.idea/
+
+# Node (if added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
