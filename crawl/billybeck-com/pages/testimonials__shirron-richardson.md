@@ -1,0 +1,30 @@
+---
+url: https://billybeck.com/testimonials/shirron-richardson
+title: "Shirron Richardson - Billy Beck"
+language: en-US
+crawled_at: 2026-04-22T16:14:23.707Z
+---# Shirron Richardson - Billy Beck
+
+## “I Wouldn’t Eat That If I Were You.”
+
+On December 31st, I attended a New Year’s Eve Dinner cruise on the Gateway Clipper with my boyfriend, Anthony. As new years come and go, I had vowed that this one was going to be different. I was definitely going to lose this extra baggage that I had been carrying around for so long. All I wanted to do was to enjoy this dinner as if it was the Last Supper and then start my body transformation. With that in mind, I wanted to savor every bite of fat I was about to intake. After dinner, I had to get dessert. I am a person in which a meal is not a meal, until you have a treat of sweetness. So I strutted to the dessert table and returned with a chocolate brownie, ice cream dessert that looked absolutely divine. I couldn’t wait to get my teeth into it. As I ws getting ready to place the fork of delight into my mouth, a voice of deep capacity sounded in my ear. “I wouldn’t eat that if I were you”. These are the words that came out of the oral opening, known as my bodyfriend’s mouth. I, looking at him in total disbelief, not wanting to comprehend what he had just said, “What??” I asked in a “I dare you to say it again” voice. But, low and behold, he repeated the words that burned like fire in my soul. His reasoning was that since I had empowered him to help me with my goal of weight loss and monitor what I ate, he felt that he was just doing his ‘job’ in telling me such a thing. Now, this man should be bery happy that I didn’t ‘go-off’ on him, in a way that only a woman of color could, but I didn’t. I was however, very hurt and angry. I knew I was big and I did summon him to help me, but not tonight, not with this dessert…not yet. Hewever, I felt I had brought this misery on myself. I now have to have a food monitor to correct my eating behavior. Unbelievable! Now you may, Did I eat that scrumptious chocolate dessert that was laid out in front of me? Well, I took one bite for ‘old times sake’, but the somehow, the sweetness just sat, bitter in my mouth. I didn’t want it anymore.
+
+I have always exercised at least 6 days a week, every week, for over a year now and the weight/fat wouldn’t budge one bit. I have tried almost every diet and the only thing that I seemed to lose was my mind, in trying to figure out what was my problem. Up until this point, I believed that maybe I had a thyroid disorder causing a decrease in my metabolism. However, lab testing revealed that my thyroid was fine. As a 36 year old woman, 174 pounds and 36.6 percent body fat, was obesity sure to be my destiny? There had to be a logical reason for my inability to rid myself of this excess.
+
+It was only until I found Billy “The Best” Beck and his Body Transformation Phenomena that I realized completely what was really going on with my body. FOOD was the problem. The wrong food. It is not enough to exercise like a bandit and still eat junk. I was not nice to my body, so how could I expect it to be nice to me. Billy taught me a lot of things that I really never paid attention to or considered. Who in their right mind would think that you can eat 5-6 meals a day in order to lose weight? I didn’t, but it worked. I couldn’t believe the difference that has taken place within me. I am now able to get into a size 8!!! Never in my life have I worn such. I think I went from toddler to size 12/14. I don’t remember anything else in between.
+
+Now don’t get me wrong, I have nothing against ‘big women’. All I know is that you have to feel comfortable in your own skin and if they are comfortable, then great, but my skin was not feeling good at all. Plus, as a member of the United States Air Force, there are weight/body fat limitations that one can not exceed or you will get placed on a mandatory program to promote your weight loss. So in order to avoid the embarrassment and stigma of being on such a program, it is best to do it on your own accord.
+
+It seems like I have been on a mission for a long time now. A mission to ‘seek and destroy’ the fat cells that have plagued me for years. Unfortunately, I had been fighting with the wrong tools. A gun with no bullets, a sword without a blade. Now, I finally feel in control of my life. I feel so much better about my appearance and my physical well-being. I do have some very significant physical limitations that includes chronic back pain for 4 years caused by multiple bulging discs and problems with my knees. But with God’s grace and through Him, He gives me strength and I keep on going.
+
+I would like to thank Billy, who is like a dynamo of energy, offering continuous encouragement and support to all he encounters. Billy…you are indeed the Best!
+
+My family can’t believe the changes that they see. The same aunties that laughed and joked at me during our last Christmas gathering, in tune with a R/B song called “Girl, Back That Thing Up” are the same ones that are saying, “Girl, you need to get to the table and eat some food”. My boyfriend is so proud of me too. He likes to tell his friends, “Look at her arms” and “Doesn’t she look good?’. It is embarrassing, but I do like the flattery. You will be glad to know that we have come to an agreement that he no longer needs to monitor my food intake. I appreciate his advice, but I just need his support. All I really needed to do was to make up in my mind that this is what I want to do for me and therefore it must be done by me.
+
+Now if someone wants to say to me “I wouldn’t eat that if I were you”, I will gladly say, “hey, it’s my cheat day versus my cheat life and I can have it if I want it.” I believe in everything in moderation and moderation is everything!
+
+Weighing in at 148 pounds and 17% body fat, this is Shirron E. Richardson.
+
+Take care and God Bless!
+
+_Shirron Richardson_
