@@ -8,143 +8,2062 @@
       "background_background": "classic",
       "background_color": "#0a0a0a",
       "background_overlay_background": "gradient",
-      "background_overlay_color": "#e63946",
-      "background_overlay_color_stop": {"unit": "%", "size": 0},
+      "background_overlay_color": "#c8102e",
+      "background_overlay_color_stop": {
+        "unit": "%",
+        "size": 0
+      },
       "background_overlay_color_b": "#0a0a0a",
-      "background_overlay_color_b_stop": {"unit": "%", "size": 65},
+      "background_overlay_color_b_stop": {
+        "unit": "%",
+        "size": 65
+      },
       "background_overlay_gradient_type": "radial",
       "background_overlay_gradient_position": "right top",
-      "background_overlay_opacity": {"unit": "px", "size": 0.35},
-      "padding": {"unit": "px", "top": "140", "right": "24", "bottom": "100", "left": "24", "isLinked": false},
-      "padding_mobile": {"unit": "px", "top": "80", "right": "16", "bottom": "64", "left": "16", "isLinked": false},
-      "content_width": {"unit": "px", "size": 1240}
+      "background_overlay_opacity": {
+        "unit": "px",
+        "size": 0.35
+      },
+      "padding": {
+        "unit": "px",
+        "top": "140",
+        "right": "24",
+        "bottom": "100",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "80",
+        "right": "16",
+        "bottom": "64",
+        "left": "16",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
     },
     "elements": [
-      {"id": "col_coh", "elType": "column", "settings": {"_column_size": 100, "content_position": "center"}, "elements": [
-        {"id": "w_coh_meta", "elType": "widget", "widgetType": "heading", "settings": {"title": "— ELITE 1-ON-1 COACHING", "header_size": "div", "align": "left", "title_color": "#14b8a6", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 4}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "28", "left": "0", "isLinked": false}, "_animation": "fadeInDown", "_animation_delay": 100}},
-        {"id": "w_coh_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "THIS IS NOT<br>A GYM CLASS.", "header_size": "h1", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Anton", "typography_font_weight": "400", "typography_font_size": {"unit": "px", "size": 156}, "typography_font_size_tablet": {"unit": "px", "size": 96}, "typography_font_size_mobile": {"unit": "px", "size": 56}, "typography_line_height": {"unit": "em", "size": 0.9}, "typography_letter_spacing": {"unit": "px", "size": -2}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false}, "_animation": "fadeInUp", "_animation_delay": 250}},
-        {"id": "w_coh_s", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p style=\"max-width:720px;\">This is engineered transformation — periodized training, precision nutrition, and mental conditioning built around <strong>you</strong>. Zero templates. Zero shortcuts. Full accountability.</p>", "text_color": "#cfcfcf", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_weight": "400", "typography_font_size": {"unit": "px", "size": 20}, "typography_font_size_mobile": {"unit": "px", "size": 16}, "typography_line_height": {"unit": "em", "size": 1.55}, "_animation": "fadeInUp", "_animation_delay": 400}}
-      ]}
+      {
+        "id": "col_coh",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "w_coh_meta",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "— COACHING · CLOSED COHORTS · WAITLIST OPEN",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "28",
+                "left": "0",
+                "isLinked": false
+              },
+              "_animation": "fadeInDown",
+              "_animation_delay": 100
+            }
+          },
+          {
+            "id": "w_coh_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "SPOTS ARE<br>CLOSED.",
+              "header_size": "h1",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 137
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 84
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 49
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.9
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -2
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "32",
+                "left": "0",
+                "isLinked": false
+              },
+              "_animation": "fadeInUp",
+              "_animation_delay": 250
+            }
+          },
+          {
+            "id": "w_coh_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"max-width:720px;\">Coaching runs in <strong>closed cohorts</strong>. New seats open only when current Lions graduate — first come, first considered. Get on the waitlist now to be reviewed for the next intake.</p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 20
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.55
+              },
+              "_animation": "fadeInUp",
+              "_animation_delay": 400
+            }
+          }
+        ]
+      }
     ]
   },
   {
     "id": "sec_co_stats",
     "elType": "section",
-    "settings": {"layout": "boxed", "structure": "30", "background_background": "classic", "background_color": "#141311", "padding": {"unit": "px", "top": "40", "right": "24", "bottom": "40", "left": "24", "isLinked": false}, "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "1", "left": "0", "isLinked": false}, "border_color": "#242220", "content_width": {"unit": "px", "size": 1240}},
+    "settings": {
+      "layout": "boxed",
+      "structure": "30",
+      "background_background": "classic",
+      "background_color": "#141311",
+      "padding": {
+        "unit": "px",
+        "top": "40",
+        "right": "24",
+        "bottom": "40",
+        "left": "24",
+        "isLinked": false
+      },
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "1",
+        "right": "0",
+        "bottom": "1",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "#242220",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
     "elements": [
-      {"id": "col_cs1", "elType": "column", "settings": {"_column_size": 33}, "elements": [
-        {"id": "w_cs1_l", "elType": "widget", "widgetType": "heading", "settings": {"title": "— ENROLLMENT", "header_size": "div", "align": "left", "title_color": "#6a6a6a", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 10}, "typography_letter_spacing": {"unit": "px", "size": 3}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "6", "left": "0", "isLinked": false}}},
-        {"id": "w_cs1_v", "elType": "widget", "widgetType": "heading", "settings": {"title": "By application only.", "header_size": "div", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Oswald", "typography_font_weight": "600", "typography_font_size": {"unit": "px", "size": 20}}}
-      ]},
-      {"id": "col_cs2", "elType": "column", "settings": {"_column_size": 33}, "elements": [
-        {"id": "w_cs2_l", "elType": "widget", "widgetType": "heading", "settings": {"title": "— ROSTER", "header_size": "div", "align": "left", "title_color": "#6a6a6a", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 10}, "typography_letter_spacing": {"unit": "px", "size": 3}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "6", "left": "0", "isLinked": false}}},
-        {"id": "w_cs2_v", "elType": "widget", "widgetType": "heading", "settings": {"title": "Limited — 12 active clients.", "header_size": "div", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Oswald", "typography_font_weight": "600", "typography_font_size": {"unit": "px", "size": 20}}}
-      ]},
-      {"id": "col_cs3", "elType": "column", "settings": {"_column_size": 33}, "elements": [
-        {"id": "w_cs3_l", "elType": "widget", "widgetType": "heading", "settings": {"title": "— HEADQUARTERS", "header_size": "div", "align": "left", "title_color": "#6a6a6a", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 10}, "typography_letter_spacing": {"unit": "px", "size": 3}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "6", "left": "0", "isLinked": false}}},
-        {"id": "w_cs3_v", "elType": "widget", "widgetType": "heading", "settings": {"title": "Ft. Lauderdale · Remote.", "header_size": "div", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Oswald", "typography_font_weight": "600", "typography_font_size": {"unit": "px", "size": 20}}}
-      ]}
+      {
+        "id": "col_cs1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.333
+        },
+        "elements": [
+          {
+            "id": "w_cs1_l",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "— STATUS",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#6a6a6a",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 10
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "6",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_cs1_v",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Waitlist only.",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 20
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_cs2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.333
+        },
+        "elements": [
+          {
+            "id": "w_cs2_l",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "— ACTIVE LIONS",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#6a6a6a",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 10
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "6",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_cs2_v",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "~100 in BB3 cohort.",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 20
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_cs3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.334
+        },
+        "elements": [
+          {
+            "id": "w_cs3_l",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "— HEADQUARTERS",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#6a6a6a",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 10
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "6",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_cs3_v",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Ft. Lauderdale · Remote.",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 20
+              }
+            }
+          }
+        ]
+      }
     ]
   },
   {
     "id": "sec_co_prog_h",
     "elType": "section",
-    "settings": {"layout": "boxed", "background_background": "classic", "background_color": "#0a0a0a", "padding": {"unit": "px", "top": "120", "right": "24", "bottom": "56", "left": "24", "isLinked": false}, "content_width": {"unit": "px", "size": 1240}},
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "120",
+        "right": "24",
+        "bottom": "56",
+        "left": "24",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
     "elements": [
-      {"id": "col_prh", "elType": "column", "settings": {"_column_size": 100}, "elements": [
-        {"id": "w_prh_eb", "elType": "widget", "widgetType": "heading", "settings": {"title": "01 / THE PROGRAMS", "header_size": "div", "align": "left", "title_color": "#14b8a6", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 4}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_prh_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "Pick your<br>battlefield.", "header_size": "h2", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Anton", "typography_font_weight": "400", "typography_font_size": {"unit": "px", "size": 72}, "typography_font_size_mobile": {"unit": "px", "size": 42}, "typography_line_height": {"unit": "em", "size": 0.95}, "typography_letter_spacing": {"unit": "px", "size": -1}, "typography_text_transform": "uppercase"}}
-      ]}
+      {
+        "id": "col_prh",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "w_prh_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "01 / THE PROGRAMS",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_prh_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Three cohorts.<br>All closed.",
+              "header_size": "h2",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 63
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 37
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_text_transform": "uppercase"
+            }
+          }
+        ]
+      }
     ]
   },
   {
     "id": "sec_co_progs",
     "elType": "section",
-    "settings": {"layout": "boxed", "structure": "30", "background_background": "classic", "background_color": "#0a0a0a", "padding": {"unit": "px", "top": "0", "right": "24", "bottom": "120", "left": "24", "isLinked": false}, "gap": "extended", "content_width": {"unit": "px", "size": 1240}},
+    "settings": {
+      "layout": "boxed",
+      "structure": "30",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "24",
+        "bottom": "120",
+        "left": "24",
+        "isLinked": false
+      },
+      "gap": "extended",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
     "elements": [
-      {"id": "col_pg1", "elType": "column", "settings": {"_column_size": 33, "background_background": "classic", "background_color": "#141311", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true}, "border_color": "#242220", "padding": {"unit": "px", "top": "44", "right": "36", "bottom": "44", "left": "36", "isLinked": false}, "animation": "fadeInUp", "animation_delay": 0}, "elements": [
-        {"id": "w_pg1_tag", "elType": "widget", "widgetType": "heading", "settings": {"title": "TIER 01 · FOUNDATIONS", "header_size": "div", "align": "left", "title_color": "#14b8a6", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 10}, "typography_letter_spacing": {"unit": "px", "size": 3}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_pg1_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "The Launch.", "header_size": "h3", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Anton", "typography_font_weight": "400", "typography_font_size": {"unit": "px", "size": 42}, "typography_line_height": {"unit": "em", "size": 0.95}, "typography_letter_spacing": {"unit": "px", "size": -1}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_pg1_s", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Your first 90 days. Movement screen, baseline testing, nutrition reset, and a periodized lift protocol built from scratch.</p>", "text_color": "#cfcfcf", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 15}, "typography_line_height": {"unit": "em", "size": 1.7}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}}},
-        {"id": "w_pg1_il", "elType": "widget", "widgetType": "icon-list", "settings": {"icon_list": [{"_id": "p1i1", "text": "8 private sessions / month"}, {"_id": "p1i2", "text": "Custom macro blueprint"}, {"_id": "p1i3", "text": "Form video review"}, {"_id": "p1i4", "text": "Weekly check-in"}], "space_between": {"unit": "px", "size": 12}, "icon_size": {"unit": "px", "size": 8}, "icon_color": "#e63946", "selected_icon": {"value": "fas fa-square", "library": "fa-solid"}, "text_color": "#d8d8d8", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 14}, "typography_line_height": {"unit": "em", "size": 1.6}, "text_indent": {"unit": "px", "size": 12}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}}},
-        {"id": "w_pg1_b", "elType": "widget", "widgetType": "button", "settings": {"text": "Apply", "link": {"url": "/contact"}, "align": "left", "size": "sm", "button_text_color": "#ffffff", "background_color": "transparent", "hover_color": "#0a0a0a", "button_background_hover_color": "#e63946", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true}, "border_color": "#e63946", "button_hover_border_color": "#e63946", "border_radius": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true}, "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 2}, "typography_text_transform": "uppercase", "text_padding": {"unit": "px", "top": "12", "right": "24", "bottom": "12", "left": "24", "isLinked": false}, "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "icon_align": "right", "icon_indent": {"unit": "px", "size": 8}}}
-      ]},
-      {"id": "col_pg2", "elType": "column", "settings": {"_column_size": 33, "background_background": "classic", "background_color": "#e63946", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true}, "border_color": "#e63946", "padding": {"unit": "px", "top": "44", "right": "36", "bottom": "44", "left": "36", "isLinked": false}, "animation": "fadeInUp", "animation_delay": 150}, "elements": [
-        {"id": "w_pg2_tag", "elType": "widget", "widgetType": "heading", "settings": {"title": "TIER 02 · FLAGSHIP", "header_size": "div", "align": "left", "title_color": "#0a0a0a", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 10}, "typography_letter_spacing": {"unit": "px", "size": 3}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_pg2_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "The Transformation.", "header_size": "h3", "align": "left", "title_color": "#0a0a0a", "typography_typography": "custom", "typography_font_family": "Anton", "typography_font_weight": "400", "typography_font_size": {"unit": "px", "size": 42}, "typography_line_height": {"unit": "em", "size": 0.95}, "typography_letter_spacing": {"unit": "px", "size": -1}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_pg2_s", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>The full system over 6 months. Strength, nutrition, and mind — integrated. Built for the client who's done with half-measures.</p>", "text_color": "#1a1a1a", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 15}, "typography_line_height": {"unit": "em", "size": 1.7}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}}},
-        {"id": "w_pg2_il", "elType": "widget", "widgetType": "icon-list", "settings": {"icon_list": [{"_id": "p2i1", "text": "12 private sessions / month"}, {"_id": "p2i2", "text": "Full nutrition + supplements"}, {"_id": "p2i3", "text": "Mental conditioning protocols"}, {"_id": "p2i4", "text": "Unlimited text-line access"}, {"_id": "p2i5", "text": "Quarterly labs review"}], "space_between": {"unit": "px", "size": 12}, "icon_size": {"unit": "px", "size": 8}, "icon_color": "#0a0a0a", "selected_icon": {"value": "fas fa-square", "library": "fa-solid"}, "text_color": "#1a1a1a", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 14}, "typography_line_height": {"unit": "em", "size": 1.6}, "text_indent": {"unit": "px", "size": 12}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}}},
-        {"id": "w_pg2_b", "elType": "widget", "widgetType": "button", "settings": {"text": "Apply", "link": {"url": "/contact"}, "align": "left", "size": "sm", "button_text_color": "#ffffff", "background_color": "#0a0a0a", "hover_color": "#0a0a0a", "button_background_hover_color": "#ffffff", "border_radius": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true}, "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 2}, "typography_text_transform": "uppercase", "text_padding": {"unit": "px", "top": "12", "right": "24", "bottom": "12", "left": "24", "isLinked": false}, "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "icon_align": "right", "icon_indent": {"unit": "px", "size": 8}}}
-      ]},
-      {"id": "col_pg3", "elType": "column", "settings": {"_column_size": 33, "background_background": "classic", "background_color": "#141311", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true}, "border_color": "#242220", "padding": {"unit": "px", "top": "44", "right": "36", "bottom": "44", "left": "36", "isLinked": false}, "animation": "fadeInUp", "animation_delay": 300}, "elements": [
-        {"id": "w_pg3_tag", "elType": "widget", "widgetType": "heading", "settings": {"title": "TIER 03 · APEX", "header_size": "div", "align": "left", "title_color": "#14b8a6", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 10}, "typography_letter_spacing": {"unit": "px", "size": 3}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_pg3_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "The Lion.", "header_size": "h3", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Anton", "typography_font_weight": "400", "typography_font_size": {"unit": "px", "size": 42}, "typography_line_height": {"unit": "em", "size": 0.95}, "typography_letter_spacing": {"unit": "px", "size": -1}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_pg3_s", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Private concierge for executives, athletes, and public figures. Fully bespoke — schedule, travel, and performance engineered to your life.</p>", "text_color": "#cfcfcf", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 15}, "typography_line_height": {"unit": "em", "size": 1.7}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}}},
-        {"id": "w_pg3_il", "elType": "widget", "widgetType": "icon-list", "settings": {"icon_list": [{"_id": "p3i1", "text": "Unlimited sessions"}, {"_id": "p3i2", "text": "On-location training"}, {"_id": "p3i3", "text": "Dedicated performance team"}, {"_id": "p3i4", "text": "Direct 24/7 access"}, {"_id": "p3i5", "text": "Full health ecosystem"}], "space_between": {"unit": "px", "size": 12}, "icon_size": {"unit": "px", "size": 8}, "icon_color": "#e63946", "selected_icon": {"value": "fas fa-square", "library": "fa-solid"}, "text_color": "#d8d8d8", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 14}, "typography_line_height": {"unit": "em", "size": 1.6}, "text_indent": {"unit": "px", "size": 12}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}}},
-        {"id": "w_pg3_b", "elType": "widget", "widgetType": "button", "settings": {"text": "Inquire", "link": {"url": "/contact"}, "align": "left", "size": "sm", "button_text_color": "#ffffff", "background_color": "transparent", "hover_color": "#0a0a0a", "button_background_hover_color": "#e63946", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true}, "border_color": "#e63946", "button_hover_border_color": "#e63946", "border_radius": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true}, "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 2}, "typography_text_transform": "uppercase", "text_padding": {"unit": "px", "top": "12", "right": "24", "bottom": "12", "left": "24", "isLinked": false}, "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "icon_align": "right", "icon_indent": {"unit": "px", "size": 8}}}
-      ]}
+      {
+        "id": "col_pg1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.333,
+          "background_background": "classic",
+          "background_color": "#141311",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "border_color": "#242220",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "36",
+            "bottom": "44",
+            "left": "36",
+            "isLinked": false
+          },
+          "animation": "fadeInUp",
+          "animation_delay": 0
+        },
+        "elements": [
+          {
+            "id": "w_pg1_tag",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "TIER 01 · GROUP · WAITLIST",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 10
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg1_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "BB3 App Cohort.",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 37
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg1_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>$6k / 6 months · $10k / year. The full system delivered through the BB3 app. ~100 active Lions train alongside you.</p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.7
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg1_il",
+            "elType": "widget",
+            "widgetType": "icon-list",
+            "settings": {
+              "icon_list": [
+                {
+                  "_id": "p1i1",
+                  "text": "BB3 app — full programming"
+                },
+                {
+                  "_id": "p1i2",
+                  "text": "Group coaching cadence"
+                },
+                {
+                  "_id": "p1i3",
+                  "text": "Form video review"
+                },
+                {
+                  "_id": "p1i4",
+                  "text": "Weekly check-in"
+                }
+              ],
+              "space_between": {
+                "unit": "px",
+                "size": 12
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 8
+              },
+              "icon_color": "#c8102e",
+              "selected_icon": {
+                "value": "fas fa-square",
+                "library": "fa-solid"
+              },
+              "text_color": "#d8d8d8",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              },
+              "text_indent": {
+                "unit": "px",
+                "size": 12
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg1_b",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Join the Waitlist",
+              "link": {
+                "url": "/contact"
+              },
+              "align": "left",
+              "size": "sm",
+              "button_text_color": "#ffffff",
+              "background_color": "transparent",
+              "hover_color": "#0a0a0a",
+              "button_background_hover_color": "#c8102e",
+              "border_border": "solid",
+              "border_width": {
+                "unit": "px",
+                "top": "1",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": true
+              },
+              "border_color": "#c8102e",
+              "button_hover_border_color": "#c8102e",
+              "border_radius": {
+                "unit": "px",
+                "top": "2",
+                "right": "2",
+                "bottom": "2",
+                "left": "2",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "12",
+                "right": "24",
+                "bottom": "12",
+                "left": "24",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-arrow-right",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_indent": {
+                "unit": "px",
+                "size": 8
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_pg2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.333,
+          "background_background": "classic",
+          "background_color": "#c8102e",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "border_color": "#c8102e",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "36",
+            "bottom": "44",
+            "left": "36",
+            "isLinked": false
+          },
+          "animation": "fadeInUp",
+          "animation_delay": 150
+        },
+        "elements": [
+          {
+            "id": "w_pg2_tag",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "TIER 02 · 1-ON-1 · WAITLIST",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#0a0a0a",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 10
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg2_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Direct with Billy.",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#0a0a0a",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 37
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg2_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>~$5k / month. Few seats. Referral-driven. Bespoke periodization, mind work, and direct line to Billy. Built for clients done with half-measures.</p>",
+              "text_color": "#1a1a1a",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.7
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg2_il",
+            "elType": "widget",
+            "widgetType": "icon-list",
+            "settings": {
+              "icon_list": [
+                {
+                  "_id": "p2i1",
+                  "text": "12 private sessions / month"
+                },
+                {
+                  "_id": "p2i2",
+                  "text": "Full nutrition + supplements"
+                },
+                {
+                  "_id": "p2i3",
+                  "text": "Mental conditioning protocols"
+                },
+                {
+                  "_id": "p2i4",
+                  "text": "Unlimited text-line access"
+                },
+                {
+                  "_id": "p2i5",
+                  "text": "Quarterly labs review"
+                }
+              ],
+              "space_between": {
+                "unit": "px",
+                "size": 12
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 8
+              },
+              "icon_color": "#0a0a0a",
+              "selected_icon": {
+                "value": "fas fa-square",
+                "library": "fa-solid"
+              },
+              "text_color": "#1a1a1a",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              },
+              "text_indent": {
+                "unit": "px",
+                "size": 12
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg2_b",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Join the Waitlist",
+              "link": {
+                "url": "/contact"
+              },
+              "align": "left",
+              "size": "sm",
+              "button_text_color": "#ffffff",
+              "background_color": "#0a0a0a",
+              "hover_color": "#0a0a0a",
+              "button_background_hover_color": "#ffffff",
+              "border_radius": {
+                "unit": "px",
+                "top": "2",
+                "right": "2",
+                "bottom": "2",
+                "left": "2",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "12",
+                "right": "24",
+                "bottom": "12",
+                "left": "24",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-arrow-right",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_indent": {
+                "unit": "px",
+                "size": 8
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_pg3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.334,
+          "background_background": "classic",
+          "background_color": "#141311",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "border_color": "#242220",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "36",
+            "bottom": "44",
+            "left": "36",
+            "isLinked": false
+          },
+          "animation": "fadeInUp",
+          "animation_delay": 300
+        },
+        "elements": [
+          {
+            "id": "w_pg3_tag",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "TIER 03 · ELITE · CLOSED",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 10
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg3_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Tony-Level.",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 37
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg3_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Six-figures+ concierge for global leaders, public figures, and elite athletes. Off-site, not promoted. Available only by direct referral.</p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.7
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg3_il",
+            "elType": "widget",
+            "widgetType": "icon-list",
+            "settings": {
+              "icon_list": [
+                {
+                  "_id": "p3i1",
+                  "text": "Unlimited sessions"
+                },
+                {
+                  "_id": "p3i2",
+                  "text": "On-location training"
+                },
+                {
+                  "_id": "p3i3",
+                  "text": "Dedicated performance team"
+                },
+                {
+                  "_id": "p3i4",
+                  "text": "Direct 24/7 access"
+                },
+                {
+                  "_id": "p3i5",
+                  "text": "Full health ecosystem"
+                }
+              ],
+              "space_between": {
+                "unit": "px",
+                "size": 12
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 8
+              },
+              "icon_color": "#c8102e",
+              "selected_icon": {
+                "value": "fas fa-square",
+                "library": "fa-solid"
+              },
+              "text_color": "#d8d8d8",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              },
+              "text_indent": {
+                "unit": "px",
+                "size": 12
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_pg3_b",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Request Referral",
+              "link": {
+                "url": "/contact"
+              },
+              "align": "left",
+              "size": "sm",
+              "button_text_color": "#ffffff",
+              "background_color": "transparent",
+              "hover_color": "#0a0a0a",
+              "button_background_hover_color": "#c8102e",
+              "border_border": "solid",
+              "border_width": {
+                "unit": "px",
+                "top": "1",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": true
+              },
+              "border_color": "#c8102e",
+              "button_hover_border_color": "#c8102e",
+              "border_radius": {
+                "unit": "px",
+                "top": "2",
+                "right": "2",
+                "bottom": "2",
+                "left": "2",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "12",
+                "right": "24",
+                "bottom": "12",
+                "left": "24",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-arrow-right",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_indent": {
+                "unit": "px",
+                "size": 8
+              }
+            }
+          }
+        ]
+      }
     ]
   },
   {
     "id": "sec_co_process_h",
     "elType": "section",
-    "settings": {"layout": "boxed", "background_background": "classic", "background_color": "#141311", "padding": {"unit": "px", "top": "110", "right": "24", "bottom": "56", "left": "24", "isLinked": false}, "content_width": {"unit": "px", "size": 1240}},
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#141311",
+      "padding": {
+        "unit": "px",
+        "top": "110",
+        "right": "24",
+        "bottom": "56",
+        "left": "24",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
     "elements": [
-      {"id": "col_prch", "elType": "column", "settings": {"_column_size": 100}, "elements": [
-        {"id": "w_prch_eb", "elType": "widget", "widgetType": "heading", "settings": {"title": "02 / THE PROCESS", "header_size": "div", "align": "left", "title_color": "#14b8a6", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 4}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_prch_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "How it works.<br>Four phases.", "header_size": "h2", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Anton", "typography_font_weight": "400", "typography_font_size": {"unit": "px", "size": 72}, "typography_font_size_mobile": {"unit": "px", "size": 42}, "typography_line_height": {"unit": "em", "size": 0.95}, "typography_letter_spacing": {"unit": "px", "size": -1}, "typography_text_transform": "uppercase"}}
-      ]}
+      {
+        "id": "col_prch",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "w_prch_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "02 / THE PROCESS",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_prch_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Once you're in.<br>Four phases.",
+              "header_size": "h2",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 63
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 37
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_text_transform": "uppercase"
+            }
+          }
+        ]
+      }
     ]
   },
   {
     "id": "sec_co_process",
     "elType": "section",
-    "settings": {"layout": "boxed", "structure": "40", "background_background": "classic", "background_color": "#141311", "padding": {"unit": "px", "top": "0", "right": "24", "bottom": "120", "left": "24", "isLinked": false}, "gap": "extended", "content_width": {"unit": "px", "size": 1240}},
+    "settings": {
+      "layout": "boxed",
+      "structure": "40",
+      "background_background": "classic",
+      "background_color": "#141311",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "24",
+        "bottom": "120",
+        "left": "24",
+        "isLinked": false
+      },
+      "gap": "extended",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
     "elements": [
-      {"id": "col_ph1", "elType": "column", "settings": {"_column_size": 25, "background_background": "classic", "background_color": "#0a0a0a", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false}, "border_color": "#e63946", "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false}, "animation": "fadeInUp", "animation_delay": 0}, "elements": [
-        {"id": "w_ph1_n", "elType": "widget", "widgetType": "heading", "settings": {"title": "01", "header_size": "div", "align": "left", "title_color": "#e63946", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 3}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_ph1_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "Consultation.", "header_size": "h4", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Oswald", "typography_font_weight": "600", "typography_font_size": {"unit": "px", "size": 22}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}}},
-        {"id": "w_ph1_s", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>45 minutes. Goals, history, constraints. Does the fit make sense for both sides.</p>", "text_color": "#9a9a9a", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 14}, "typography_line_height": {"unit": "em", "size": 1.65}}}
-      ]},
-      {"id": "col_ph2", "elType": "column", "settings": {"_column_size": 25, "background_background": "classic", "background_color": "#0a0a0a", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false}, "border_color": "#e63946", "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false}, "animation": "fadeInUp", "animation_delay": 100}, "elements": [
-        {"id": "w_ph2_n", "elType": "widget", "widgetType": "heading", "settings": {"title": "02", "header_size": "div", "align": "left", "title_color": "#e63946", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 3}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_ph2_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "Assessment.", "header_size": "h4", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Oswald", "typography_font_weight": "600", "typography_font_size": {"unit": "px", "size": 22}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}}},
-        {"id": "w_ph2_s", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Movement screen, strength baseline, body composition, labs if needed.</p>", "text_color": "#9a9a9a", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 14}, "typography_line_height": {"unit": "em", "size": 1.65}}}
-      ]},
-      {"id": "col_ph3", "elType": "column", "settings": {"_column_size": 25, "background_background": "classic", "background_color": "#0a0a0a", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false}, "border_color": "#e63946", "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false}, "animation": "fadeInUp", "animation_delay": 200}, "elements": [
-        {"id": "w_ph3_n", "elType": "widget", "widgetType": "heading", "settings": {"title": "03", "header_size": "div", "align": "left", "title_color": "#e63946", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 3}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_ph3_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "Blueprint.", "header_size": "h4", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Oswald", "typography_font_weight": "600", "typography_font_size": {"unit": "px", "size": 22}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}}},
-        {"id": "w_ph3_s", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Periodized protocol. Macros, training splits, supplementation, recovery windows.</p>", "text_color": "#9a9a9a", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 14}, "typography_line_height": {"unit": "em", "size": 1.65}}}
-      ]},
-      {"id": "col_ph4", "elType": "column", "settings": {"_column_size": 25, "background_background": "classic", "background_color": "#0a0a0a", "border_border": "solid", "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false}, "border_color": "#e63946", "padding": {"unit": "px", "top": "32", "right": "28", "bottom": "32", "left": "28", "isLinked": false}, "animation": "fadeInUp", "animation_delay": 300}, "elements": [
-        {"id": "w_ph4_n", "elType": "widget", "widgetType": "heading", "settings": {"title": "04", "header_size": "div", "align": "left", "title_color": "#e63946", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 3}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}}},
-        {"id": "w_ph4_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "Execute.", "header_size": "h4", "align": "left", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Oswald", "typography_font_weight": "600", "typography_font_size": {"unit": "px", "size": 22}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false}}},
-        {"id": "w_ph4_s", "elType": "widget", "widgetType": "text-editor", "settings": {"editor": "<p>Ruthless execution. Weekly iteration. You show up. Billy runs the rest.</p>", "text_color": "#9a9a9a", "typography_typography": "custom", "typography_font_family": "Inter", "typography_font_size": {"unit": "px", "size": 14}, "typography_line_height": {"unit": "em", "size": 1.65}}}
-      ]}
+      {
+        "id": "col_ph1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25,
+          "background_background": "classic",
+          "background_color": "#0a0a0a",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "border_color": "#c8102e",
+          "padding": {
+            "unit": "px",
+            "top": "32",
+            "right": "28",
+            "bottom": "32",
+            "left": "28",
+            "isLinked": false
+          },
+          "animation": "fadeInUp",
+          "animation_delay": 0
+        },
+        "elements": [
+          {
+            "id": "w_ph1_n",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "01",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ph1_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Consultation.",
+              "header_size": "h4",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 22
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "10",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ph1_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>45 minutes. Goals, history, constraints. Does the fit make sense for both sides.</p>",
+              "text_color": "#9a9a9a",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.65
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_ph2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25,
+          "background_background": "classic",
+          "background_color": "#0a0a0a",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "border_color": "#c8102e",
+          "padding": {
+            "unit": "px",
+            "top": "32",
+            "right": "28",
+            "bottom": "32",
+            "left": "28",
+            "isLinked": false
+          },
+          "animation": "fadeInUp",
+          "animation_delay": 100
+        },
+        "elements": [
+          {
+            "id": "w_ph2_n",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "02",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ph2_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Assessment.",
+              "header_size": "h4",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 22
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "10",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ph2_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Movement screen, strength baseline, body composition, labs if needed.</p>",
+              "text_color": "#9a9a9a",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.65
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_ph3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25,
+          "background_background": "classic",
+          "background_color": "#0a0a0a",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "border_color": "#c8102e",
+          "padding": {
+            "unit": "px",
+            "top": "32",
+            "right": "28",
+            "bottom": "32",
+            "left": "28",
+            "isLinked": false
+          },
+          "animation": "fadeInUp",
+          "animation_delay": 200
+        },
+        "elements": [
+          {
+            "id": "w_ph3_n",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "03",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ph3_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Blueprint.",
+              "header_size": "h4",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 22
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "10",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ph3_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Periodized protocol. Macros, training splits, supplementation, recovery windows.</p>",
+              "text_color": "#9a9a9a",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.65
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_ph4",
+        "elType": "column",
+        "settings": {
+          "_column_size": 25,
+          "background_background": "classic",
+          "background_color": "#0a0a0a",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "border_color": "#c8102e",
+          "padding": {
+            "unit": "px",
+            "top": "32",
+            "right": "28",
+            "bottom": "32",
+            "left": "28",
+            "isLinked": false
+          },
+          "animation": "fadeInUp",
+          "animation_delay": 300
+        },
+        "elements": [
+          {
+            "id": "w_ph4_n",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "04",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ph4_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Execute.",
+              "header_size": "h4",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 22
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "10",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ph4_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Ruthless execution. Weekly iteration. You show up. Billy runs the rest.</p>",
+              "text_color": "#9a9a9a",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.65
+              }
+            }
+          }
+        ]
+      }
     ]
   },
   {
     "id": "sec_co_quote",
     "elType": "section",
-    "settings": {"layout": "boxed", "background_background": "classic", "background_color": "#0a0a0a", "padding": {"unit": "px", "top": "120", "right": "24", "bottom": "120", "left": "24", "isLinked": false}, "content_width": {"unit": "px", "size": 960}},
+    "settings": {
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "120",
+        "right": "24",
+        "bottom": "120",
+        "left": "24",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 960
+      }
+    },
     "elements": [
-      {"id": "col_qc", "elType": "column", "settings": {"_column_size": 100, "align": "center"}, "elements": [
-        {"id": "w_qc_eb", "elType": "widget", "widgetType": "heading", "settings": {"title": "— A WORD FROM BILLY", "header_size": "div", "align": "center", "title_color": "#e63946", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 4}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "28", "left": "0", "isLinked": false}}},
-        {"id": "w_qc_q", "elType": "widget", "widgetType": "heading", "settings": {"title": "&ldquo;I don't sell workouts.<br>I build people who refuse to lose.&rdquo;", "header_size": "h2", "align": "center", "title_color": "#ffffff", "typography_typography": "custom", "typography_font_family": "Oswald", "typography_font_weight": "500", "typography_font_size": {"unit": "px", "size": 44}, "typography_font_size_mobile": {"unit": "px", "size": 26}, "typography_line_height": {"unit": "em", "size": 1.25}, "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}}},
-        {"id": "w_qc_a", "elType": "widget", "widgetType": "heading", "settings": {"title": "— BILLY BECK III", "header_size": "div", "align": "center", "title_color": "#14b8a6", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 3}, "typography_text_transform": "uppercase"}}
-      ]}
+      {
+        "id": "col_qc",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_qc_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "— A WORD FROM BILLY",
+              "header_size": "div",
+              "align": "center",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "28",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_qc_q",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "&ldquo;I don't sell workouts.<br>I forge lions who refuse to live like lambs.&rdquo;",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "500",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 39
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 26
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.25
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_qc_a",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "— BILLY BECK III",
+              "header_size": "div",
+              "align": "center",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase"
+            }
+          }
+        ]
+      }
     ]
   },
   {
     "id": "sec_co_cta",
     "elType": "section",
-    "settings": {"layout": "full_width", "stretch_section": "section-stretched", "background_background": "classic", "background_color": "#e63946", "background_overlay_background": "gradient", "background_overlay_color": "#e63946", "background_overlay_color_b": "#b81d2a", "background_overlay_gradient_angle": {"unit": "deg", "size": 160}, "padding": {"unit": "px", "top": "100", "right": "24", "bottom": "100", "left": "24", "isLinked": false}, "content_width": {"unit": "px", "size": 1240}},
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "background_background": "classic",
+      "background_color": "#c8102e",
+      "background_overlay_background": "gradient",
+      "background_overlay_color": "#c8102e",
+      "background_overlay_color_b": "#8a0a1f",
+      "background_overlay_gradient_angle": {
+        "unit": "deg",
+        "size": 160
+      },
+      "padding": {
+        "unit": "px",
+        "top": "100",
+        "right": "24",
+        "bottom": "100",
+        "left": "24",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
     "elements": [
-      {"id": "col_coc", "elType": "column", "settings": {"_column_size": 100, "align": "center"}, "elements": [
-        {"id": "w_coc_eb", "elType": "widget", "widgetType": "heading", "settings": {"title": "ONE APPLICATION AWAY.", "header_size": "div", "align": "center", "title_color": "#0a0a0a", "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 11}, "typography_letter_spacing": {"unit": "px", "size": 4}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}}},
-        {"id": "w_coc_t", "elType": "widget", "widgetType": "heading", "settings": {"title": "Apply. Get the call.<br>Start the work.", "header_size": "h2", "align": "center", "title_color": "#0a0a0a", "typography_typography": "custom", "typography_font_family": "Anton", "typography_font_weight": "400", "typography_font_size": {"unit": "px", "size": 88}, "typography_font_size_mobile": {"unit": "px", "size": 44}, "typography_line_height": {"unit": "em", "size": 0.95}, "typography_letter_spacing": {"unit": "px", "size": -2}, "typography_text_transform": "uppercase", "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false}}},
-        {"id": "w_coc_b", "elType": "widget", "widgetType": "button", "settings": {"text": "Start the Application", "link": {"url": "/contact"}, "align": "center", "size": "lg", "button_text_color": "#e63946", "background_color": "#0a0a0a", "hover_color": "#0a0a0a", "button_background_hover_color": "#ffffff", "border_radius": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true}, "typography_typography": "custom", "typography_font_family": "Space Mono", "typography_font_weight": "700", "typography_font_size": {"unit": "px", "size": 13}, "typography_letter_spacing": {"unit": "px", "size": 2}, "typography_text_transform": "uppercase", "text_padding": {"unit": "px", "top": "22", "right": "44", "bottom": "22", "left": "44", "isLinked": false}, "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"}, "icon_align": "right", "icon_indent": {"unit": "px", "size": 10}, "hover_animation": "grow"}}
-      ]}
+      {
+        "id": "col_coc",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_coc_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "ONE WAITLIST AWAY.",
+              "header_size": "div",
+              "align": "center",
+              "title_color": "#0a0a0a",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_coc_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Get on the waitlist.<br>Wait for the call.",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#0a0a0a",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 77
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 39
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -2
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "32",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_coc_b",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Join the Waitlist",
+              "link": {
+                "url": "/contact"
+              },
+              "align": "center",
+              "size": "lg",
+              "button_text_color": "#c8102e",
+              "background_color": "#0a0a0a",
+              "hover_color": "#0a0a0a",
+              "button_background_hover_color": "#ffffff",
+              "border_radius": {
+                "unit": "px",
+                "top": "2",
+                "right": "2",
+                "bottom": "2",
+                "left": "2",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 13
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "22",
+                "right": "44",
+                "bottom": "22",
+                "left": "44",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-arrow-right",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_indent": {
+                "unit": "px",
+                "size": 10
+              },
+              "hover_animation": "grow"
+            }
+          }
+        ]
+      }
     ]
   }
 ]

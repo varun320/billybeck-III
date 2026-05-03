@@ -50,6 +50,70 @@ function walk(node) {
 const composed = [...nav, ...body, ...footer];
 walk(composed);
 
+// Inject active-state on the nav link matching the current page.
+// Desktop nav links carry: color:#9a9a9a + border-bottom:1px solid transparent
+// Mobile nav links carry:  color:#ffffff  + border-left:3px solid transparent
+// For the link with data-page="<page>", swap to the red active treatment and
+// add data-active="true" so the onmouseout handler keeps the active styling.
+const ACTIVE_MAP = {
+  about: 'about',
+  coaching: 'coaching',
+  testimonials: 'testimonials',
+  contact: 'contact',
+  blog: 'blog',
+  legion: 'legion',
+};
+const activeKey = ACTIVE_MAP[page];
+if (activeKey === 'legion') {
+  // Legion has its own teal-pill styling -- active state inverts to filled teal
+  // (background:#14b8a6, color:#0a0a0a) which is visually distinct from the red
+  // active treatment used by every other nav link.
+  const tagRe = /<a data-page="legion"([^>]*)>/g;
+  function activate(node) {
+    if (Array.isArray(node)) { for (const item of node) activate(item); return; }
+    if (!node || typeof node !== 'object') return;
+    for (const k of Object.keys(node)) {
+      const v = node[k];
+      if (typeof v === 'string' && (k === 'editor' || k === 'tab_content')) {
+        node[k] = v.replace(tagRe, (_, attrs) => {
+          const a = attrs
+            .replace('color:#14b8a6', 'color:#0a0a0a')
+            .replace('background-color:transparent', 'background-color:#14b8a6')
+            .replace('box-shadow:0 0 0 0 rgba(20,184,166,0)', 'box-shadow:0 0 18px rgba(20,184,166,0.4)');
+          return `<a data-page="legion" data-active="true"${a}>`;
+        });
+      } else if (v && typeof v === 'object') {
+        activate(v);
+      }
+    }
+  }
+  activate(composed);
+} else if (activeKey) {
+  const tagRe = new RegExp(`<a data-page="${activeKey}"([^>]*)>`, 'g');
+  function activate(node) {
+    if (Array.isArray(node)) { for (const item of node) activate(item); return; }
+    if (!node || typeof node !== 'object') return;
+    for (const k of Object.keys(node)) {
+      const v = node[k];
+      if (typeof v === 'string' && (k === 'editor' || k === 'tab_content')) {
+        node[k] = v.replace(tagRe, (_, attrs) => {
+          let a = attrs
+            .replace('color:#9a9a9a', 'color:#c8102e')
+            .replace('color:#ffffff', 'color:#c8102e')
+            .replace('border-bottom:1px solid transparent', 'border-bottom:1px solid #c8102e')
+            .replace('border-left:3px solid transparent', 'border-left:3px solid #c8102e')
+            .replace(/font-weight:[^;"]*;?/, '');
+          // Add font-weight:700 + data-active flag at the end
+          return `<a data-page="${activeKey}" data-active="true"${a.replace('data-page="' + activeKey + '"', '').replace('text-decoration:none;', 'text-decoration:none;font-weight:700;')}>`;
+        });
+      } else if (v && typeof v === 'object') {
+        activate(v);
+      }
+    }
+  }
+  activate(composed);
+}
+
 const outPath = join(__dirname, `${page}.v6.json`);
 writeFileSync(outPath, JSON.stringify(composed, null, 2) + '\n');
-console.log(`Wrote ${outPath} (${composed.length} sections, base="${base}")`);
+console.log(`Wrote ${outPath} (${composed.length} sections, base="${base}", active="${activeKey || 'none'}")`);

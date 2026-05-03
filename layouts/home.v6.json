@@ -163,7 +163,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"text-align:center;margin:0;letter-spacing:2px;text-transform:uppercase;\"><a href=\"/billybeck/billy-beck-iii\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;\">About</a><a href=\"/billybeck/coaching\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;\">Coaching</a><a href=\"/billybeck/testimonials\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;\">Testimonials</a><a href=\"/billybeck/contact\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;\">Contact</a></p>",
+              "editor": "<p style=\"text-align:center;margin:0;letter-spacing:2px;text-transform:uppercase;\"><a data-page=\"about\" href=\"/billybeck/billy-beck-iii\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">About</a><a data-page=\"coaching\" href=\"/billybeck/coaching\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Coaching</a><a data-page=\"testimonials\" href=\"/billybeck/testimonials\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Testimonials</a><a data-page=\"blog\" href=\"/billybeck/blog\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Blog</a><a data-page=\"contact\" href=\"/billybeck/contact\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Contact</a><a data-page=\"legion\" href=\"/billybeck/legion-of-lions\" style=\"color:#14b8a6;text-decoration:none;margin:0 4px 0 18px;padding:7px 16px;border:1px solid #14b8a6;border-radius:999px;background-color:transparent;transition:background-color .25s,color .25s,box-shadow .25s,transform .25s;display:inline-block;letter-spacing:2px;box-shadow:0 0 0 0 rgba(20,184,166,0);\" onmouseover=\"this.style.backgroundColor='#14b8a6';this.style.color='#0a0a0a';this.style.boxShadow='0 0 18px rgba(20,184,166,0.45)';this.style.transform='translateY(-1px)';\" onmouseout=\"if(!this.dataset.active){this.style.backgroundColor='transparent';this.style.color='#14b8a6';this.style.boxShadow='0 0 0 0 rgba(20,184,166,0)';this.style.transform='translateY(0)';}\">&#9876; Legion</a></p>",
               "align": "center",
               "text_color": "#9a9a9a",
               "typography_typography": "custom",
@@ -209,14 +209,14 @@
             "elType": "widget",
             "widgetType": "button",
             "settings": {
-              "text": "Book",
+              "text": "Join",
               "link": {
-                "url": "/billybeck/contact"
+                "url": "/billybeck/legion-of-lions"
               },
               "align": "right",
               "size": "sm",
               "button_text_color": "#0a0a0a",
-              "background_color": "#e63946",
+              "background_color": "#c8102e",
               "hover_color": "#ffffff",
               "button_background_hover_color": "#0a0a0a",
               "border_border": "solid",
@@ -228,7 +228,7 @@
                 "left": "1",
                 "isLinked": true
               },
-              "border_color": "#e63946",
+              "border_color": "#c8102e",
               "button_hover_border_color": "#14b8a6",
               "border_radius": {
                 "unit": "px",
@@ -385,14 +385,14 @@
             "elType": "widget",
             "widgetType": "button",
             "settings": {
-              "text": "Book",
+              "text": "Join",
               "link": {
-                "url": "/billybeck/contact"
+                "url": "/billybeck/legion-of-lions"
               },
               "align": "right",
               "size": "xs",
               "button_text_color": "#0a0a0a",
-              "background_color": "#e63946",
+              "background_color": "#c8102e",
               "hover_color": "#ffffff",
               "button_background_hover_color": "#0a0a0a",
               "border_border": "solid",
@@ -404,7 +404,7 @@
                 "left": "1",
                 "isLinked": true
               },
-              "border_color": "#e63946",
+              "border_color": "#c8102e",
               "border_radius": {
                 "unit": "px",
                 "top": "2",
@@ -509,7 +509,7 @@
                 {
                   "_id": "mnav1",
                   "tab_title": "Menu",
-                  "tab_content": "<ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"padding:12px 0;border-bottom:1px solid #1a1a1a;\"><a href=\"/billybeck/billy-beck-iii\" style=\"color:#ffffff;text-decoration:none;\">ABOUT</a></li><li style=\"padding:12px 0;border-bottom:1px solid #1a1a1a;\"><a href=\"/billybeck/coaching\" style=\"color:#ffffff;text-decoration:none;\">COACHING</a></li><li style=\"padding:12px 0;border-bottom:1px solid #1a1a1a;\"><a href=\"/billybeck/testimonials\" style=\"color:#ffffff;text-decoration:none;\">TESTIMONIALS</a></li><li style=\"padding:12px 0;\"><a href=\"/billybeck/contact\" style=\"color:#ffffff;text-decoration:none;\">CONTACT</a></li></ul>"
+                  "tab_content": "<ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"about\" href=\"/billybeck/billy-beck-iii\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">ABOUT</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"coaching\" href=\"/billybeck/coaching\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">COACHING (WAITLIST)</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"testimonials\" href=\"/billybeck/testimonials\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">TESTIMONIALS</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"blog\" href=\"/billybeck/blog\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">BLOG</a></li><li><a data-page=\"contact\" href=\"/billybeck/contact\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">CONTACT</a></li><li style=\"padding:14px 12px 6px 12px;\"><a data-page=\"legion\" href=\"/billybeck/legion-of-lions\" style=\"display:block;padding:14px 16px;color:#14b8a6;text-decoration:none;border:1px solid #14b8a6;border-radius:999px;background-color:transparent;text-align:center;letter-spacing:3px;transition:background-color .25s,color .25s,box-shadow .25s;box-shadow:0 0 0 0 rgba(20,184,166,0);\" onmouseover=\"this.style.backgroundColor='#14b8a6';this.style.color='#0a0a0a';this.style.boxShadow='0 0 22px rgba(20,184,166,0.45)';\" onmouseout=\"if(!this.dataset.active){this.style.backgroundColor='transparent';this.style.color='#14b8a6';this.style.boxShadow='0 0 0 0 rgba(20,184,166,0)';}\">&#9876; JOIN THE LEGION</a></li></ul>"
                 }
               ],
               "title_html_tag": "div",
@@ -523,14 +523,14 @@
               },
               "icon_align": "right",
               "icon_color": "#14b8a6",
-              "icon_active_color": "#e63946",
+              "icon_active_color": "#c8102e",
               "border_width": {
                 "unit": "px",
                 "size": 0
               },
               "title_background": "#0a0a0a",
               "title_color": "#ffffff",
-              "tab_active_color": "#e63946",
+              "tab_active_color": "#c8102e",
               "content_background_color": "#141311",
               "content_color": "#ffffff",
               "title_typography_typography": "custom",
@@ -587,7 +587,7 @@
       "background_background": "classic",
       "background_color": "#0a0a0a",
       "background_overlay_background": "gradient",
-      "background_overlay_color": "#e63946",
+      "background_overlay_color": "#c8102e",
       "background_overlay_color_stop": {
         "unit": "%",
         "size": 0
@@ -647,7 +647,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "EST · 1994    ·    FT. LAUDERDALE    ·    LIVE LIKE A LION",
+              "title": "LEGION OF LIONS    ·    A MOVEMENT OF SELF-MASTERY    ·    EST. 1994",
               "header_size": "div",
               "align": "center",
               "title_color": "#14b8a6",
@@ -680,7 +680,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "FORGE YOUR<br>STRONGEST SELF.",
+              "title": "LIVE LIKE A<br>LION.",
               "header_size": "h1",
               "align": "center",
               "title_color": "#ffffff",
@@ -689,15 +689,15 @@
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 144
+                "size": 155
               },
               "typography_font_size_tablet": {
                 "unit": "px",
-                "size": 96
+                "size": 99
               },
               "typography_font_size_mobile": {
                 "unit": "px",
-                "size": 54
+                "size": 56
               },
               "typography_line_height": {
                 "unit": "em",
@@ -725,7 +725,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"text-align:center;max-width:640px;margin:0 auto;\">Personal training, nutrition, supplements and mental conditioning from the 2&times; World's Best Personal Trainer.</p>",
+              "editor": "<p style=\"text-align:center;max-width:680px;margin:0 auto;\">Not another fitness program. A movement of self-mastery for heart-driven leaders who refuse to live like a fearful lamb. <strong>Where the mind goes, the body follows.</strong></p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -759,14 +759,14 @@
             "elType": "widget",
             "widgetType": "button",
             "settings": {
-              "text": "Start Your Transformation  →",
+              "text": "Join the Legion of Lions  →",
               "link": {
-                "url": "/billybeck/coaching"
+                "url": "/billybeck/legion-of-lions"
               },
               "align": "center",
               "size": "lg",
               "button_text_color": "#0a0a0a",
-              "background_color": "#e63946",
+              "background_color": "#c8102e",
               "hover_color": "#0a0a0a",
               "button_background_hover_color": "#14b8a6",
               "border_radius": {
@@ -801,6 +801,1048 @@
               "_animation": "fadeInUp",
               "_animation_delay": 550
             }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_thesis_intro",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "structure": "10",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "120",
+        "right": "40",
+        "bottom": "40",
+        "left": "40",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "90",
+        "right": "24",
+        "bottom": "30",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "70",
+        "right": "16",
+        "bottom": "20",
+        "left": "16",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_thi",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_position": "center",
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_thi_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "01 / THE THESIS",
+              "header_size": "div",
+              "align": "center",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_thi_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Lion or<br>Lamb.",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 113
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 77
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 49
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.92
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -2
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "28",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_thi_sub",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"text-align:center;max-width:680px;margin:0 auto;\">Two ways to live. One builds the body, the work, and the legacy you were built for. The other waits for the right time and dies waiting. <strong>Live like a lion, not a fearful lamb.</strong></p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 19
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              }
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_thesis_cards",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "structure": "20",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "20",
+        "right": "40",
+        "bottom": "120",
+        "left": "40",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "20",
+        "right": "24",
+        "bottom": "90",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "20",
+        "right": "16",
+        "bottom": "70",
+        "left": "16",
+        "isLinked": false
+      },
+      "gap": "extended",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_thc_l",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "_column_size_tablet": 100,
+          "content_position": "top",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "48",
+            "right": "40",
+            "bottom": "48",
+            "left": "40",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "4",
+            "isLinked": false
+          },
+          "border_color": "#c8102e"
+        },
+        "elements": [
+          {
+            "id": "w_thc_l_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "THE LION",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_thc_l_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Lives by<br>choice.",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 49
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 35
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_thc_l_il",
+            "elType": "widget",
+            "widgetType": "icon-list",
+            "settings": {
+              "icon_list": [
+                {
+                  "_id": "li1",
+                  "text": "Sculpts the body — and the life around it."
+                },
+                {
+                  "_id": "li2",
+                  "text": "Leads, serves, contributes — without burning out."
+                },
+                {
+                  "_id": "li3",
+                  "text": "Treats challenge as the path, not the obstacle."
+                },
+                {
+                  "_id": "li4",
+                  "text": "Devoted, humble student of self-mastery."
+                }
+              ],
+              "space_between": {
+                "unit": "px",
+                "size": 14
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 8
+              },
+              "icon_color": "#c8102e",
+              "selected_icon": {
+                "value": "fas fa-square",
+                "library": "fa-solid"
+              },
+              "text_color": "#d8d8d8",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.55
+              },
+              "text_indent": {
+                "unit": "px",
+                "size": 12
+              }
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "col_thc_r",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "_column_size_tablet": 100,
+          "content_position": "top",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "48",
+            "right": "40",
+            "bottom": "48",
+            "left": "40",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "4",
+            "isLinked": false
+          },
+          "border_color": "#3a3a3a"
+        },
+        "elements": [
+          {
+            "id": "w_thc_r_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "THE LAMB",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#6a6a6a",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "16",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_thc_r_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Lives by<br>default.",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#9a9a9a",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 49
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 35
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_thc_r_il",
+            "elType": "widget",
+            "widgetType": "icon-list",
+            "settings": {
+              "icon_list": [
+                {
+                  "_id": "la1",
+                  "text": "Waits for the right time. It never arrives."
+                },
+                {
+                  "_id": "la2",
+                  "text": "Outsources health, body, energy — to luck."
+                },
+                {
+                  "_id": "la3",
+                  "text": "Avoids challenge — and avoids change with it."
+                },
+                {
+                  "_id": "la4",
+                  "text": "Lets fear set the ceiling on the life lived."
+                }
+              ],
+              "space_between": {
+                "unit": "px",
+                "size": 14
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 8
+              },
+              "icon_color": "#6a6a6a",
+              "selected_icon": {
+                "value": "fas fa-square",
+                "library": "fa-solid"
+              },
+              "text_color": "#9a9a9a",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.55
+              },
+              "text_indent": {
+                "unit": "px",
+                "size": 12
+              }
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_pillars_intro",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "structure": "10",
+      "background_background": "classic",
+      "background_color": "#060606",
+      "padding": {
+        "unit": "px",
+        "top": "120",
+        "right": "40",
+        "bottom": "40",
+        "left": "40",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "90",
+        "right": "24",
+        "bottom": "30",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "70",
+        "right": "16",
+        "bottom": "20",
+        "left": "16",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_pi",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_position": "center",
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_pi_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "02 / THE THREE PILLARS",
+              "header_size": "div",
+              "align": "center",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_pi_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Where the mind goes,<br>the body follows.",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 84
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 35
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -2
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_pi_sub",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"text-align:center;max-width:660px;margin:0 auto;\">Three pillars hold up everything we do. Train them in order and the rest takes care of itself. <strong>Challenge creates change.</strong></p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              }
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_pillars_grid",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "structure": "30",
+      "background_background": "classic",
+      "background_color": "#060606",
+      "padding": {
+        "unit": "px",
+        "top": "20",
+        "right": "40",
+        "bottom": "120",
+        "left": "40",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "20",
+        "right": "24",
+        "bottom": "90",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "20",
+        "right": "16",
+        "bottom": "70",
+        "left": "16",
+        "isLinked": false
+      },
+      "gap": "extended",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_p1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.333,
+          "_column_size_tablet": 50,
+          "_column_size_mobile": 100,
+          "content_position": "top",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "32",
+            "bottom": "44",
+            "left": "32",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "border_color": "#242220"
+        },
+        "elements": [
+          {
+            "id": "w_p1_n",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "I.",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_p1_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Physical Training",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 24
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 1
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "12",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_p1_b",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>The body is the proving ground. Strength, conditioning, mobility — built deliberately, sustained for life. Not punishment. Practice.</p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              }
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "col_p2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.333,
+          "_column_size_tablet": 50,
+          "_column_size_mobile": 100,
+          "content_position": "top",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "32",
+            "bottom": "44",
+            "left": "32",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "border_color": "#242220"
+        },
+        "elements": [
+          {
+            "id": "w_p2_n",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "II.",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_p2_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Effective Eating",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 24
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 1
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "12",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_p2_b",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Food is fuel for the work, not a battleground. No fads, no shortcuts. Real macros, real food, ruthless simplicity, sustained energy.</p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              }
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "col_p3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.334,
+          "_column_size_tablet": 100,
+          "_column_size_mobile": 100,
+          "content_position": "top",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "32",
+            "bottom": "44",
+            "left": "32",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "border_color": "#242220"
+        },
+        "elements": [
+          {
+            "id": "w_p3_n",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "III.",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_p3_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Mental Conditioning",
+              "header_size": "h3",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "600",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 24
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 1
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "12",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_p3_b",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Where the mind goes the body follows. Train the inner game first — focus, courage, identity — and the outer transformation becomes inevitable.</p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              }
+            },
+            "elements": []
           }
         ]
       }
@@ -857,13 +1899,13 @@
               "title": "30+",
               "header_size": "div",
               "align": "center",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Anton",
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 72
+                "size": 63
               },
               "typography_line_height": {
                 "unit": "em",
@@ -926,13 +1968,13 @@
               "title": "1000+",
               "header_size": "div",
               "align": "center",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Anton",
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 72
+                "size": 63
               },
               "typography_line_height": {
                 "unit": "em",
@@ -995,13 +2037,13 @@
               "title": "2×",
               "header_size": "div",
               "align": "center",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Anton",
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 72
+                "size": 63
               },
               "typography_line_height": {
                 "unit": "em",
@@ -1064,13 +2106,13 @@
               "title": "01",
               "header_size": "div",
               "align": "center",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Anton",
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 72
+                "size": 63
               },
               "typography_line_height": {
                 "unit": "em",
@@ -1356,7 +2398,7 @@
               "title": "— TRUSTED BY TONY ROBBINS",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -1393,7 +2435,7 @@
               "typography_font_weight": "500",
               "typography_font_size": {
                 "unit": "px",
-                "size": 36
+                "size": 32
               },
               "typography_font_size_mobile": {
                 "unit": "px",
@@ -1517,7 +2559,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "01 / THE PEDIGREE",
+              "title": "03 / THE PEDIGREE",
               "header_size": "div",
               "align": "left",
               "title_color": "#14b8a6",
@@ -1557,11 +2599,11 @@
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 72
+                "size": 63
               },
               "typography_font_size_mobile": {
                 "unit": "px",
-                "size": 42
+                "size": 37
               },
               "typography_line_height": {
                 "unit": "em",
@@ -1605,7 +2647,7 @@
         "id": "col_cr_1",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.333,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -1675,7 +2717,7 @@
               "typography_font_weight": "600",
               "typography_font_size": {
                 "unit": "px",
-                "size": 28
+                "size": 25
               },
               "typography_line_height": {
                 "unit": "em",
@@ -1720,7 +2762,7 @@
         "id": "col_cr_2",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.333,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -1790,7 +2832,7 @@
               "typography_font_weight": "600",
               "typography_font_size": {
                 "unit": "px",
-                "size": 28
+                "size": 25
               },
               "typography_line_height": {
                 "unit": "em",
@@ -1831,7 +2873,7 @@
         "id": "col_cr_3",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.334,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -1901,7 +2943,7 @@
               "typography_font_weight": "600",
               "typography_font_size": {
                 "unit": "px",
-                "size": 28
+                "size": 25
               },
               "typography_line_height": {
                 "unit": "em",
@@ -1973,7 +3015,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "02 / THE RECEIPTS",
+              "title": "04 / THE RECEIPTS",
               "header_size": "div",
               "align": "left",
               "title_color": "#14b8a6",
@@ -2013,11 +3055,11 @@
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 72
+                "size": 63
               },
               "typography_font_size_mobile": {
                 "unit": "px",
-                "size": 42
+                "size": 37
               },
               "typography_line_height": {
                 "unit": "em",
@@ -2061,7 +3103,7 @@
         "id": "col_tm_1",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.333,
           "background_background": "classic",
           "background_color": "#0a0a0a",
           "border_border": "solid",
@@ -2188,7 +3230,7 @@
         "id": "col_tm_2",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.333,
           "background_background": "classic",
           "background_color": "#0a0a0a",
           "border_border": "solid",
@@ -2315,7 +3357,7 @@
         "id": "col_tm_3",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.334,
           "background_background": "classic",
           "background_color": "#0a0a0a",
           "border_border": "solid",
@@ -2473,7 +3515,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "03 / THE WALL OF FAME",
+              "title": "05 / THE WALL OF FAME",
               "header_size": "div",
               "align": "left",
               "title_color": "#14b8a6",
@@ -2513,11 +3555,11 @@
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 72
+                "size": 63
               },
               "typography_font_size_mobile": {
                 "unit": "px",
-                "size": 42
+                "size": 37
               },
               "typography_line_height": {
                 "unit": "em",
@@ -2658,7 +3700,7 @@
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 28
+                "size": 25
               },
               "typography_line_height": {
                 "unit": "em",
@@ -2739,7 +3781,7 @@
               "title": "→ OUTCOME · TRANSFORMED",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -2770,13 +3812,13 @@
               "title": "AFTER",
               "header_size": "h3",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Anton",
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 28
+                "size": 25
               },
               "typography_line_height": {
                 "unit": "em",
@@ -2904,7 +3946,7 @@
         "id": "col_rg_c2",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.333,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -3012,7 +4054,7 @@
               "title": "→ TRANSFORMED",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -3033,7 +4075,7 @@
         "id": "col_rg_c3",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.333,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -3141,7 +4183,7 @@
               "title": "→ TRANSFORMED",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -3162,7 +4204,7 @@
         "id": "col_rg_c4",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.334,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -3270,7 +4312,7 @@
               "title": "→ TRANSFORMED",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -3316,7 +4358,7 @@
         "id": "col_rg_c5",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.333,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -3424,7 +4466,7 @@
               "title": "→ TRANSFORMED",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -3445,7 +4487,7 @@
         "id": "col_rg_c6",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.333,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -3553,7 +4595,7 @@
               "title": "→ TRANSFORMED",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -3574,7 +4616,7 @@
         "id": "col_rg_c7",
         "elType": "column",
         "settings": {
-          "_column_size": 33,
+          "_column_size": 33.334,
           "background_background": "classic",
           "background_color": "#141311",
           "border_border": "solid",
@@ -3682,7 +4724,7 @@
               "title": "→ TRANSFORMED",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -3696,6 +4738,431 @@
               },
               "typography_text_transform": "uppercase"
             }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_impact",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "background_overlay_background": "gradient",
+      "background_overlay_color": "#c8102e",
+      "background_overlay_color_stop": {
+        "unit": "%",
+        "size": 0
+      },
+      "background_overlay_color_b": "#0a0a0a",
+      "background_overlay_color_b_stop": {
+        "unit": "%",
+        "size": 65
+      },
+      "background_overlay_gradient_type": "radial",
+      "background_overlay_gradient_position": "center top",
+      "background_overlay_opacity": {
+        "unit": "px",
+        "size": 0.25
+      },
+      "padding": {
+        "unit": "px",
+        "top": "120",
+        "right": "24",
+        "bottom": "120",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "90",
+        "right": "20",
+        "bottom": "90",
+        "left": "20",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "70",
+        "right": "16",
+        "bottom": "70",
+        "left": "16",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_imp_h",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_position": "center",
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_imp_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "06 / THE IMPACT  ·  LIVE COUNTER",
+              "header_size": "div",
+              "align": "center",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_imp_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "A movement<br>that feeds<br>the world.",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 99
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 70
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 42
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.92
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -2
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "28",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_imp_sub",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"text-align:center;max-width:680px;margin:0 auto 56px;\">Every booklet purchased, every membership joined, funds meals for hungry families and protects vulnerable kids. The work is the offering. <strong>The numbers update with every transaction.</strong></p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              }
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_impact_grid",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "structure": "30",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "40",
+        "bottom": "120",
+        "left": "40",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "0",
+        "right": "24",
+        "bottom": "90",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "0",
+        "right": "16",
+        "bottom": "70",
+        "left": "16",
+        "isLinked": false
+      },
+      "gap": "extended",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_ic1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.333,
+          "_column_size_tablet": 100,
+          "_column_size_mobile": 100,
+          "content_position": "middle",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "32",
+            "bottom": "44",
+            "left": "32",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "4",
+            "isLinked": false
+          },
+          "border_color": "#c8102e",
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_ic1",
+            "elType": "widget",
+            "widgetType": "counter",
+            "settings": {
+              "starting_number": 0,
+              "ending_number": 28000,
+              "thousand_separator": "yes",
+              "title": "Meals provided",
+              "duration": 2200,
+              "title_color": "#9a9a9a",
+              "number_color": "#ffffff",
+              "typography_number_typography": "custom",
+              "typography_number_font_family": "Anton",
+              "typography_number_font_weight": "400",
+              "typography_number_font_size": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_number_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_title_typography": "custom",
+              "typography_title_font_family": "Space Mono",
+              "typography_title_font_weight": "700",
+              "typography_title_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_title_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_title_text_transform": "uppercase",
+              "align": "center"
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "col_ic2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.333,
+          "_column_size_tablet": 100,
+          "_column_size_mobile": 100,
+          "content_position": "middle",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "32",
+            "bottom": "44",
+            "left": "32",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "4",
+            "isLinked": false
+          },
+          "border_color": "#c8102e",
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_ic2",
+            "elType": "widget",
+            "widgetType": "counter",
+            "settings": {
+              "starting_number": 0,
+              "ending_number": 1240,
+              "thousand_separator": "yes",
+              "title": "Children helped",
+              "duration": 2200,
+              "title_color": "#9a9a9a",
+              "number_color": "#ffffff",
+              "typography_number_typography": "custom",
+              "typography_number_font_family": "Anton",
+              "typography_number_font_weight": "400",
+              "typography_number_font_size": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_number_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_title_typography": "custom",
+              "typography_title_font_family": "Space Mono",
+              "typography_title_font_weight": "700",
+              "typography_title_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_title_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_title_text_transform": "uppercase",
+              "align": "center"
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "col_ic3",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33.334,
+          "_column_size_tablet": 100,
+          "_column_size_mobile": 100,
+          "content_position": "middle",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "44",
+            "right": "32",
+            "bottom": "44",
+            "left": "32",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "4",
+            "isLinked": false
+          },
+          "border_color": "#c8102e",
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_ic3",
+            "elType": "widget",
+            "widgetType": "counter",
+            "settings": {
+              "starting_number": 0,
+              "ending_number": 14,
+              "title": "Charity partners",
+              "duration": 2200,
+              "title_color": "#9a9a9a",
+              "number_color": "#ffffff",
+              "typography_number_typography": "custom",
+              "typography_number_font_family": "Anton",
+              "typography_number_font_weight": "400",
+              "typography_number_font_size": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_number_letter_spacing": {
+                "unit": "px",
+                "size": -1
+              },
+              "typography_title_typography": "custom",
+              "typography_title_font_family": "Space Mono",
+              "typography_title_font_weight": "700",
+              "typography_title_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_title_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_title_text_transform": "uppercase",
+              "align": "center"
+            },
+            "elements": []
           }
         ]
       }
@@ -3764,10 +5231,10 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "04 / BESTSELLING BOOK",
+              "title": "07 / LEAD MAGNET · $7 BOOKLET",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -3795,7 +5262,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "LEAN &amp; MEAN.",
+              "title": "THE LION'S<br>BLUEPRINT.",
               "header_size": "h2",
               "align": "left",
               "title_color": "#0a0a0a",
@@ -3804,11 +5271,11 @@
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 88
+                "size": 77
               },
               "typography_font_size_mobile": {
                 "unit": "px",
-                "size": 54
+                "size": 48
               },
               "typography_line_height": {
                 "unit": "em",
@@ -3834,7 +5301,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "Fat burning secrets of the World's Best Personal Trainer.",
+              "title": "A 3-page blueprint for the lion you were built to be.",
               "header_size": "h3",
               "align": "left",
               "title_color": "#6a6a6a",
@@ -3865,7 +5332,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p>Proven strategies for shedding fat fast, creating relentless energy, and mastering your mind. Anchored by the <strong>3 Pillars of Power</strong> and the <strong>7-Day Challenge</strong>.</p>",
+              "editor": "<p>The shortest path into the work — anchored by the <strong>Three Pillars</strong>: physical training, effective eating, mental conditioning. Every $7 purchase funds <strong>~28 meals</strong> through our charity partners.</p>",
               "text_color": "#3a3a3a",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -3892,17 +5359,16 @@
             "elType": "widget",
             "widgetType": "button",
             "settings": {
-              "text": "Buy on Amazon  →",
+              "text": "Get the Blueprint — $7  →",
               "link": {
-                "url": "https://www.amazon.com/LEAN-MEAN-Burning-Secrets-Personal-ebook/dp/B0089G9MR4/",
-                "is_external": "on"
+                "url": "/billybeck/legion-of-lions#blueprint"
               },
               "align": "left",
               "size": "lg",
               "button_text_color": "#ffffff",
               "background_color": "#0a0a0a",
               "hover_color": "#ffffff",
-              "button_background_hover_color": "#e63946",
+              "button_background_hover_color": "#c8102e",
               "border_radius": {
                 "unit": "px",
                 "top": "2",
@@ -3939,16 +5405,251 @@
     ]
   },
   {
+    "id": "sec_coach_waitlist",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "structure": "20",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "120",
+        "right": "40",
+        "bottom": "120",
+        "left": "40",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "90",
+        "right": "24",
+        "bottom": "90",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "70",
+        "right": "16",
+        "bottom": "70",
+        "left": "16",
+        "isLinked": false
+      },
+      "gap": "extended",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_cw_l",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "_column_size_tablet": 100,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "w_cw_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "08 / COACHING  ·  WAITLISTED",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_cw_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Spots are<br>closed.",
+              "header_size": "h2",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 84
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 42
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.92
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -2
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "col_cw_r",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "_column_size_tablet": 100,
+          "content_position": "center",
+          "background_background": "classic",
+          "background_color": "#141311",
+          "padding": {
+            "unit": "px",
+            "top": "48",
+            "right": "44",
+            "bottom": "48",
+            "left": "44",
+            "isLinked": false
+          },
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "4",
+            "isLinked": false
+          },
+          "border_color": "#c8102e"
+        },
+        "elements": [
+          {
+            "id": "w_cw_b",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Group coaching, 1-on-1, and the BB3 app are operated as <strong>closed cohorts</strong>. New seats open when current Lions graduate. The waitlist is the only way in — first come, first considered.</p>",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.65
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "32",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_cw_cta",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Join the Waitlist  →",
+              "link": {
+                "url": "/billybeck/coaching"
+              },
+              "align": "left",
+              "size": "lg",
+              "button_text_color": "#0a0a0a",
+              "background_color": "#c8102e",
+              "hover_color": "#ffffff",
+              "button_background_hover_color": "#0a0a0a",
+              "border_radius": {
+                "unit": "px",
+                "top": "2",
+                "right": "2",
+                "bottom": "2",
+                "left": "2",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 12
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "18",
+                "right": "36",
+                "bottom": "18",
+                "left": "36",
+                "isLinked": false
+              },
+              "hover_animation": "grow"
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "sec_final_cta",
     "elType": "section",
     "settings": {
       "layout": "full_width",
       "stretch_section": "section-stretched",
       "background_background": "classic",
-      "background_color": "#e63946",
+      "background_color": "#c8102e",
       "background_overlay_background": "gradient",
-      "background_overlay_color": "#e63946",
-      "background_overlay_color_b": "#b81d2a",
+      "background_overlay_color": "#c8102e",
+      "background_overlay_color_b": "#8a0a1f",
       "background_overlay_gradient_angle": {
         "unit": "deg",
         "size": 160
@@ -3980,7 +5681,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "05 / YOUR MOVE",
+              "title": "09 / YOUR MOVE",
               "header_size": "div",
               "align": "center",
               "title_color": "#0a0a0a",
@@ -4011,7 +5712,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "Ready to live<br>like a lion?",
+              "title": "Step into<br>the Legion.",
               "header_size": "h2",
               "align": "center",
               "title_color": "#0a0a0a",
@@ -4020,11 +5721,11 @@
               "typography_font_weight": "400",
               "typography_font_size": {
                 "unit": "px",
-                "size": 104
+                "size": 92
               },
               "typography_font_size_mobile": {
                 "unit": "px",
-                "size": 54
+                "size": 48
               },
               "typography_line_height": {
                 "unit": "em",
@@ -4050,13 +5751,13 @@
             "elType": "widget",
             "widgetType": "button",
             "settings": {
-              "text": "Book a Consultation  →",
+              "text": "Join the Legion of Lions — $97/mo  →",
               "link": {
-                "url": "/billybeck/contact"
+                "url": "/billybeck/legion-of-lions"
               },
               "align": "center",
               "size": "lg",
-              "button_text_color": "#e63946",
+              "button_text_color": "#c8102e",
               "background_color": "#0a0a0a",
               "hover_color": "#0a0a0a",
               "button_background_hover_color": "#ffffff",
@@ -4182,7 +5883,7 @@
               "title": "/ LIVE LIKE A LION",
               "header_size": "div",
               "align": "left",
-              "title_color": "#e63946",
+              "title_color": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "700",
@@ -4237,7 +5938,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<div style=\"display:flex;gap:10px;align-items:center;\"><a href=\"#\" aria-label=\"Instagram\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#e63946';this.style.borderColor='#e63946';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5Zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm5.25-3a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z\"/></svg></a><a href=\"#\" aria-label=\"YouTube\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#e63946';this.style.borderColor='#e63946';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"/></svg></a><a href=\"#\" aria-label=\"Facebook\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#e63946';this.style.borderColor='#e63946';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M13.5 22v-8h2.7l.4-3.3H13.5V8.6c0-1 .3-1.6 1.6-1.6H17V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.5V14h2.8v8h3.2Z\"/></svg></a><a href=\"#\" aria-label=\"X\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#e63946';this.style.borderColor='#e63946';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z\"/></svg></a></div>",
+              "editor": "<div style=\"display:flex;gap:10px;align-items:center;\"><a href=\"#\" aria-label=\"Instagram\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5Zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm5.25-3a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z\"/></svg></a><a href=\"#\" aria-label=\"YouTube\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"/></svg></a><a href=\"#\" aria-label=\"Facebook\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M13.5 22v-8h2.7l.4-3.3H13.5V8.6c0-1 .3-1.6 1.6-1.6H17V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.5V14h2.8v8h3.2Z\"/></svg></a><a href=\"#\" aria-label=\"X\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z\"/></svg></a></div>",
               "text_color": "#d8d8d8",
               "align": "left"
             }
@@ -4520,7 +6221,7 @@
               "button_text_color": "#ffffff",
               "background_color": "transparent",
               "hover_color": "#0a0a0a",
-              "button_background_hover_color": "#e63946",
+              "button_background_hover_color": "#c8102e",
               "border_border": "solid",
               "border_width": {
                 "unit": "px",
@@ -4530,8 +6231,8 @@
                 "left": "1",
                 "isLinked": true
               },
-              "border_color": "#e63946",
-              "button_hover_border_color": "#e63946",
+              "border_color": "#c8102e",
+              "button_hover_border_color": "#c8102e",
               "border_radius": {
                 "unit": "px",
                 "top": "2",
@@ -4699,7 +6400,7 @@
                 "size": 24
               },
               "text_color": "#6a6a6a",
-              "text_color_hover": "#e63946",
+              "text_color_hover": "#c8102e",
               "typography_typography": "custom",
               "typography_font_family": "Space Mono",
               "typography_font_weight": "400",
