@@ -27,3 +27,13 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python caches (reports/ scripts)
+__pycache__/
+*.pyc
+
+# Layout build artifacts (compact / escaped variants -- not used by deploy)
+layouts/*.compact.json
+layouts/*.escaped.txt
+layouts/*.escaped.chunks.txt
+layouts/_preview.html
