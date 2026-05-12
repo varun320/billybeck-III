@@ -62,6 +62,7 @@ const ACTIVE_MAP = {
   contact: 'contact',
   blog: 'blog',
   legion: 'legion',
+  single: 'blog',
 };
 const activeKey = ACTIVE_MAP[page];
 if (activeKey === 'legion') {

@@ -1,0 +1,353 @@
+/* ============================================================
+   Billy Beck III — Single Post styling for hello-elementor
+   Targets default theme markup on /blog/<slug>/ (post-template-default)
+   Brand tokens: #0a0a0a dark · #14b8a6 teal · #c8102e red · #cfcfcf body · #ffffff hi
+   Fonts: Anton (display) · Space Mono (eyebrow/meta) · Inter (body)
+   ============================================================ */
+
+/* Scope: only single posts. Don't touch pages (which use elementor_canvas). */
+
+body.single-post {
+    background-color: #0a0a0a !important;
+    color: #cfcfcf;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* === Default theme header — minimal dark bar (just brand) === */
+body.single-post .site-header,
+body.single-post #site-header {
+    background-color: #0a0a0a !important;
+    border-bottom: 1px solid #1a1a1a;
+    padding: 18px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+body.single-post .header-inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+body.single-post .site-branding,
+body.single-post .site-title {
+    display: flex !important;
+    align-items: center;
+}
+body.single-post .site-title a {
+    font-family: 'Anton', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 22px !important;
+    color: #ffffff !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+body.single-post .site-title a:hover {
+    color: #c8102e !important;
+}
+
+/* === Main content frame === */
+body.single-post .site-main,
+body.single-post #content {
+    max-width: 880px !important;
+    margin: 0 auto !important;
+    padding: 64px 24px 96px 24px !important;
+    background: transparent !important;
+}
+
+/* === Post title (page-header) === */
+body.single-post .page-header {
+    text-align: left;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #242220;
+}
+body.single-post .entry-title {
+    font-family: 'Anton', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: clamp(40px, 7vw, 88px) !important;
+    line-height: 0.95 !important;
+    letter-spacing: -2px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+}
+/* Eyebrow before the title */
+body.single-post .page-header::before {
+    content: "— FIELD NOTES";
+    display: block;
+    font-family: 'Space Mono', 'Courier New', monospace;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #14b8a6;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+/* === Post body content === */
+body.single-post .page-content,
+body.single-post .entry-content {
+    background-color: #141311;
+    border: 1px solid #242220;
+    padding: 56px 64px;
+    margin-top: 0;
+}
+@media (max-width: 768px) {
+    body.single-post .page-content,
+    body.single-post .entry-content {
+        padding: 32px 24px;
+    }
+}
+
+body.single-post .page-content p,
+body.single-post .entry-content p {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 17px !important;
+    line-height: 1.75 !important;
+    color: #cfcfcf !important;
+    margin: 0 0 24px 0;
+}
+
+body.single-post .page-content h2,
+body.single-post .entry-content h2 {
+    font-family: 'Anton', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 40px !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.5px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    margin: 48px 0 20px 0;
+    padding-top: 8px;
+    border-top: 1px solid #242220;
+}
+body.single-post .page-content h2:first-child,
+body.single-post .entry-content h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+@media (max-width: 768px) {
+    body.single-post .page-content h2,
+    body.single-post .entry-content h2 {
+        font-size: 30px !important;
+    }
+}
+
+body.single-post .page-content h3,
+body.single-post .entry-content h3 {
+    font-family: 'Anton', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 28px !important;
+    line-height: 1.1 !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    margin: 32px 0 16px 0;
+}
+
+body.single-post .page-content h4,
+body.single-post .entry-content h4 {
+    font-family: 'Space Mono', 'Courier New', monospace !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    letter-spacing: 3px !important;
+    text-transform: uppercase !important;
+    color: #14b8a6 !important;
+    margin: 28px 0 12px 0;
+}
+
+body.single-post .page-content a,
+body.single-post .entry-content a {
+    color: #14b8a6 !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #14b8a6;
+    transition: color 0.2s, border-color 0.2s;
+}
+body.single-post .page-content a:hover,
+body.single-post .entry-content a:hover {
+    color: #ffffff !important;
+    border-bottom-color: #ffffff;
+}
+
+body.single-post .page-content blockquote,
+body.single-post .entry-content blockquote {
+    margin: 32px 0;
+    padding: 24px 32px;
+    border-left: 3px solid #c8102e;
+    background-color: rgba(200, 16, 46, 0.06);
+    color: #ffffff !important;
+    font-style: italic;
+}
+body.single-post .page-content blockquote p,
+body.single-post .entry-content blockquote p {
+    color: #ffffff !important;
+    font-size: 22px !important;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    body.single-post .page-content blockquote p,
+    body.single-post .entry-content blockquote p {
+        font-size: 18px !important;
+    }
+}
+
+body.single-post .page-content ul,
+body.single-post .page-content ol,
+body.single-post .entry-content ul,
+body.single-post .entry-content ol {
+    margin: 0 0 24px 0;
+    padding-left: 24px;
+    color: #cfcfcf !important;
+}
+body.single-post .page-content li,
+body.single-post .entry-content li {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 17px !important;
+    line-height: 1.7 !important;
+    color: #cfcfcf !important;
+    margin-bottom: 12px;
+}
+body.single-post .page-content li strong,
+body.single-post .entry-content li strong {
+    color: #ffffff !important;
+}
+
+body.single-post .page-content strong,
+body.single-post .entry-content strong {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+body.single-post .page-content em,
+body.single-post .entry-content em {
+    color: #ffffff !important;
+}
+
+body.single-post .page-content hr,
+body.single-post .entry-content hr {
+    border: 0;
+    border-top: 1px solid #242220;
+    margin: 48px 0;
+}
+
+/* === Comments — minimal dark style (or hide) === */
+body.single-post .comments-area {
+    margin-top: 64px;
+    padding-top: 48px;
+    border-top: 1px solid #242220;
+    color: #9a9a9a;
+}
+body.single-post .comments-area .comment-reply-title,
+body.single-post .comments-area h2,
+body.single-post .comments-area h3 {
+    font-family: 'Anton', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    text-transform: uppercase !important;
+    color: #ffffff !important;
+    letter-spacing: -0.5px !important;
+}
+body.single-post .comment-form label {
+    color: #cfcfcf !important;
+    font-family: 'Space Mono', 'Courier New', monospace !important;
+    font-size: 11px !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    display: block;
+    margin-bottom: 8px;
+}
+body.single-post .comment-form input[type="text"],
+body.single-post .comment-form input[type="email"],
+body.single-post .comment-form input[type="url"],
+body.single-post .comment-form textarea {
+    background-color: #141311 !important;
+    border: 1px solid #242220 !important;
+    color: #ffffff !important;
+    padding: 12px 16px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 15px !important;
+    width: 100% !important;
+    max-width: 520px;
+}
+body.single-post .comment-form input:focus,
+body.single-post .comment-form textarea:focus {
+    border-color: #14b8a6 !important;
+    outline: none;
+}
+body.single-post .comment-form .submit {
+    background-color: #14b8a6 !important;
+    color: #0a0a0a !important;
+    font-family: 'Space Mono', 'Courier New', monospace !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    border: 1px solid #14b8a6 !important;
+    border-radius: 999px !important;
+    padding: 14px 32px !important;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+body.single-post .comment-form .submit:hover {
+    background-color: #0a0a0a !important;
+    color: #ffffff !important;
+}
+body.single-post .comment-notes,
+body.single-post .comment-form-cookies-consent {
+    color: #9a9a9a !important;
+    font-size: 13px !important;
+}
+body.single-post .required {
+    color: #c8102e !important;
+}
+
+/* === Default theme footer → dark === */
+body.single-post .site-footer,
+body.single-post #site-footer {
+    background-color: #0a0a0a !important;
+    border-top: 1px solid #1a1a1a;
+    color: #6a6a6a;
+    padding: 32px 24px;
+    text-align: center;
+    font-family: 'Space Mono', 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+body.single-post .site-footer a,
+body.single-post #site-footer a {
+    color: #14b8a6 !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+/* ============================================================
+   Active nav state — site-wide. Driven by WP body slug classes
+   so the shared Theme Builder Header (template 147) can highlight
+   the link matching the current page without per-page baking.
+   ============================================================ */
+
+/* Generic active treatment (red) for all non-legion links */
+body.page-billy-beck-iii  a[data-page="about"],
+body.page-coaching        a[data-page="coaching"],
+body.page-testimonials    a[data-page="testimonials"],
+body.page-contact         a[data-page="contact"],
+body.page-blog            a[data-page="blog"],
+body.single-post          a[data-page="blog"] {
+    color: #c8102e !important;
+    font-weight: 700 !important;
+    border-bottom-color: #c8102e !important;
+    border-left-color: #c8102e !important;
+}
+
+/* Legion link: filled teal pill instead of red */
+body.page-legion-of-lions a[data-page="legion"] {
+    background-color: #14b8a6 !important;
+    color: #0a0a0a !important;
+    box-shadow: 0 0 18px rgba(20,184,166,0.4) !important;
+}
+

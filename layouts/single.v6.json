@@ -1,0 +1,1908 @@
+[
+  {
+    "id": "sec_nav_d",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "structure": "33",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "20",
+        "right": "56",
+        "bottom": "20",
+        "left": "56",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "px",
+        "top": "14",
+        "right": "20",
+        "bottom": "14",
+        "left": "20",
+        "isLinked": false
+      },
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "1",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "#1a1a1a",
+      "content_width": {
+        "unit": "px",
+        "size": 1320
+      },
+      "gap": "narrow",
+      "hide_mobile": "hidden-mobile",
+      "sticky": "top",
+      "sticky_on": [
+        "desktop",
+        "tablet"
+      ],
+      "sticky_offset": 0,
+      "sticky_offset_tablet": 0,
+      "sticky_effects_offset": 0,
+      "z_index": 999
+    },
+    "elements": [
+      {
+        "id": "col_nav_logo",
+        "elType": "column",
+        "settings": {
+          "_column_size": 17,
+          "_column_size_tablet": 20,
+          "content_position": "center",
+          "align": "left"
+        },
+        "elements": [
+          {
+            "id": "w_nav_logo",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "BILLY BECK III",
+              "header_size": "div",
+              "align": "left",
+              "link": {
+                "url": "/billybeck/"
+              },
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 22
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_letter_spacing_tablet": {
+                "unit": "px",
+                "size": 1
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "4",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_nav_tag",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "/ LIVE LIKE A LION",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 9
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 8
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_letter_spacing_tablet": {
+                "unit": "px",
+                "size": 1
+              },
+              "typography_text_transform": "uppercase",
+              "hide_tablet": "hidden-tablet",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_nav_links",
+        "elType": "column",
+        "settings": {
+          "_column_size": 66,
+          "_column_size_tablet": 60,
+          "content_position": "center",
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_nav_links",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"text-align:center;margin:0;letter-spacing:2px;text-transform:uppercase;\"><a data-page=\"about\" href=\"/billybeck/billy-beck-iii\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">About</a><a data-page=\"coaching\" href=\"/billybeck/coaching\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Coaching</a><a data-page=\"testimonials\" href=\"/billybeck/testimonials\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Testimonials</a><a data-page=\"blog\" data-active=\"true\" href=\"/billybeck/blog\" style=\"color:#c8102e;text-decoration:none;font-weight:700;margin:0 14px;padding:6px 0;border-bottom:1px solid #c8102e;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Blog</a><a data-page=\"contact\" href=\"/billybeck/contact\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Contact</a><a data-page=\"legion\" href=\"/billybeck/legion-of-lions\" style=\"color:#14b8a6;text-decoration:none;margin:0 4px 0 18px;padding:7px 16px;border:1px solid #14b8a6;border-radius:999px;background-color:transparent;transition:background-color .25s,color .25s,box-shadow .25s,transform .25s;display:inline-block;letter-spacing:2px;box-shadow:0 0 0 0 rgba(20,184,166,0);\" onmouseover=\"this.style.backgroundColor='#14b8a6';this.style.color='#0a0a0a';this.style.boxShadow='0 0 18px rgba(20,184,166,0.45)';this.style.transform='translateY(-1px)';\" onmouseout=\"if(!this.dataset.active){this.style.backgroundColor='transparent';this.style.color='#14b8a6';this.style.boxShadow='0 0 0 0 rgba(20,184,166,0)';this.style.transform='translateY(0)';}\">&#9876; Legion</a></p>",
+              "align": "center",
+              "text_color": "#9a9a9a",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 9
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_letter_spacing_tablet": {
+                "unit": "px",
+                "size": 1
+              },
+              "typography_text_transform": "uppercase",
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_nav_cta",
+        "elType": "column",
+        "settings": {
+          "_column_size": 17,
+          "_column_size_tablet": 20,
+          "content_position": "center",
+          "align": "right"
+        },
+        "elements": [
+          {
+            "id": "w_nav_cta",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Join",
+              "link": {
+                "url": "/billybeck/legion-of-lions"
+              },
+              "align": "right",
+              "size": "sm",
+              "button_text_color": "#0a0a0a",
+              "background_color": "#c8102e",
+              "hover_color": "#ffffff",
+              "button_background_hover_color": "#0a0a0a",
+              "border_border": "solid",
+              "border_width": {
+                "unit": "px",
+                "top": "1",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": true
+              },
+              "border_color": "#c8102e",
+              "button_hover_border_color": "#14b8a6",
+              "border_radius": {
+                "unit": "px",
+                "top": "2",
+                "right": "2",
+                "bottom": "2",
+                "left": "2",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 10
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "13",
+                "right": "24",
+                "bottom": "13",
+                "left": "24",
+                "isLinked": false
+              },
+              "text_padding_tablet": {
+                "unit": "px",
+                "top": "10",
+                "right": "16",
+                "bottom": "10",
+                "left": "16",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-arrow-right",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_indent": {
+                "unit": "px",
+                "size": 8
+              },
+              "hover_animation": "pulse"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_nav_m_top",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "structure": "20",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "14",
+        "right": "20",
+        "bottom": "14",
+        "left": "20",
+        "isLinked": false
+      },
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "1",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "#1a1a1a",
+      "gap": "narrow",
+      "hide_desktop": "hidden-desktop",
+      "hide_tablet": "hidden-tablet",
+      "sticky": "top",
+      "sticky_on": [
+        "mobile"
+      ],
+      "sticky_offset_mobile": 0,
+      "sticky_effects_offset": 0,
+      "z_index": 999
+    },
+    "elements": [
+      {
+        "id": "col_nav_m_logo",
+        "elType": "column",
+        "settings": {
+          "_column_size": 70,
+          "_column_size_tablet": 70,
+          "_column_size_mobile": 70,
+          "_inline_size_mobile": 70,
+          "content_position": "center",
+          "align": "left"
+        },
+        "elements": [
+          {
+            "id": "w_nav_m_logo",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "BILLY BECK III",
+              "header_size": "div",
+              "align": "left",
+              "link": {
+                "url": "/billybeck/"
+              },
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_nav_m_cta",
+        "elType": "column",
+        "settings": {
+          "_column_size": 30,
+          "_column_size_tablet": 30,
+          "_column_size_mobile": 30,
+          "_inline_size_mobile": 30,
+          "content_position": "center",
+          "align": "right"
+        },
+        "elements": [
+          {
+            "id": "w_nav_m_cta",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Join",
+              "link": {
+                "url": "/billybeck/legion-of-lions"
+              },
+              "align": "right",
+              "size": "xs",
+              "button_text_color": "#0a0a0a",
+              "background_color": "#c8102e",
+              "hover_color": "#ffffff",
+              "button_background_hover_color": "#0a0a0a",
+              "border_border": "solid",
+              "border_width": {
+                "unit": "px",
+                "top": "1",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": true
+              },
+              "border_color": "#c8102e",
+              "border_radius": {
+                "unit": "px",
+                "top": "2",
+                "right": "2",
+                "bottom": "2",
+                "left": "2",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 10
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "9",
+                "right": "14",
+                "bottom": "9",
+                "left": "14",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-arrow-right",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_indent": {
+                "unit": "px",
+                "size": 6
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_nav_m_menu",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+      },
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "1",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "#1a1a1a",
+      "hide_desktop": "hidden-desktop",
+      "hide_tablet": "hidden-tablet",
+      "sticky": "top",
+      "sticky_on": [
+        "mobile"
+      ],
+      "sticky_offset_mobile": 56,
+      "sticky_effects_offset": 0,
+      "z_index": 998
+    },
+    "elements": [
+      {
+        "id": "col_nav_m_toggle",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          }
+        },
+        "elements": [
+          {
+            "id": "w_nav_m_toggle",
+            "elType": "widget",
+            "widgetType": "toggle",
+            "settings": {
+              "tabs": [
+                {
+                  "_id": "mnav1",
+                  "tab_title": "Menu",
+                  "tab_content": "<ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"about\" href=\"/billybeck/billy-beck-iii\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">ABOUT</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"coaching\" href=\"/billybeck/coaching\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">COACHING (WAITLIST)</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"testimonials\" href=\"/billybeck/testimonials\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">TESTIMONIALS</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"blog\" data-active=\"true\" href=\"/billybeck/blog\" style=\"display:block;padding:14px 0;color:#c8102e;text-decoration:none;font-weight:700;border-left:3px solid #c8102e;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">BLOG</a></li><li><a data-page=\"contact\" href=\"/billybeck/contact\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">CONTACT</a></li><li style=\"padding:14px 12px 6px 12px;\"><a data-page=\"legion\" href=\"/billybeck/legion-of-lions\" style=\"display:block;padding:14px 16px;color:#14b8a6;text-decoration:none;border:1px solid #14b8a6;border-radius:999px;background-color:transparent;text-align:center;letter-spacing:3px;transition:background-color .25s,color .25s,box-shadow .25s;box-shadow:0 0 0 0 rgba(20,184,166,0);\" onmouseover=\"this.style.backgroundColor='#14b8a6';this.style.color='#0a0a0a';this.style.boxShadow='0 0 22px rgba(20,184,166,0.45)';\" onmouseout=\"if(!this.dataset.active){this.style.backgroundColor='transparent';this.style.color='#14b8a6';this.style.boxShadow='0 0 0 0 rgba(20,184,166,0)';}\">&#9876; JOIN THE LEGION</a></li></ul>"
+                }
+              ],
+              "title_html_tag": "div",
+              "selected_icon": {
+                "value": "fas fa-bars",
+                "library": "fa-solid"
+              },
+              "selected_active_icon": {
+                "value": "fas fa-times",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_color": "#14b8a6",
+              "icon_active_color": "#c8102e",
+              "border_width": {
+                "unit": "px",
+                "size": 0
+              },
+              "title_background": "#0a0a0a",
+              "title_color": "#ffffff",
+              "tab_active_color": "#c8102e",
+              "content_background_color": "#141311",
+              "content_color": "#ffffff",
+              "title_typography_typography": "custom",
+              "title_typography_font_family": "Space Mono",
+              "title_typography_font_weight": "700",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "title_typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "title_typography_text_transform": "uppercase",
+              "content_typography_typography": "custom",
+              "content_typography_font_family": "Space Mono",
+              "content_typography_font_weight": "700",
+              "content_typography_font_size": {
+                "unit": "px",
+                "size": 12
+              },
+              "content_typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "title_padding": {
+                "unit": "px",
+                "top": "16",
+                "right": "20",
+                "bottom": "16",
+                "left": "20",
+                "isLinked": false
+              },
+              "content_padding": {
+                "unit": "px",
+                "top": "8",
+                "right": "20",
+                "bottom": "16",
+                "left": "20",
+                "isLinked": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_singleH",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "background_overlay_background": "gradient",
+      "background_overlay_color": "#14b8a6",
+      "background_overlay_color_stop": {
+        "unit": "%",
+        "size": 0
+      },
+      "background_overlay_color_b": "#0a0a0a",
+      "background_overlay_color_b_stop": {
+        "unit": "%",
+        "size": 60
+      },
+      "background_overlay_gradient_type": "radial",
+      "background_overlay_gradient_position": "center top",
+      "background_overlay_opacity": {
+        "unit": "px",
+        "size": 0.18
+      },
+      "padding": {
+        "unit": "px",
+        "top": "140",
+        "right": "24",
+        "bottom": "80",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "80",
+        "right": "16",
+        "bottom": "56",
+        "left": "16",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_singleH",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "w_singleH_back",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"margin:0 0 32px 0;\"><a href=\"/billybeck/blog/\" style=\"color:#14b8a6;text-decoration:none;letter-spacing:3px;text-transform:uppercase;font-weight:700;border-bottom:1px solid #14b8a6;padding-bottom:2px;font-size:11px;\">&larr; BACK TO FIELD NOTES</a></p>",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "_animation": "fadeInDown",
+              "_animation_delay": 100
+            },
+            "elements": []
+          },
+          {
+            "id": "w_singleH_eyebrow",
+            "elType": "widget",
+            "widgetType": "theme-post-info",
+            "settings": {
+              "post_info_list": [
+                {
+                  "_id": "spi_terms",
+                  "type": "terms",
+                  "show_label": "",
+                  "before": "— FIELD NOTES  ·  ",
+                  "taxonomy": "category"
+                },
+                {
+                  "_id": "spi_date",
+                  "type": "date",
+                  "show_label": "",
+                  "before": "·  ",
+                  "date_format": "F j, Y"
+                }
+              ],
+              "icon_indent": {
+                "unit": "px",
+                "size": 0
+              },
+              "icon_align": "left",
+              "icon_color": "#14b8a6",
+              "icon_size": {
+                "unit": "px",
+                "size": 0
+              },
+              "text_indent": {
+                "unit": "px",
+                "size": 0
+              },
+              "space_between": {
+                "unit": "px",
+                "size": 0
+              },
+              "divider": "",
+              "view": "inline",
+              "color_text": "#14b8a6",
+              "color_link": "#14b8a6",
+              "color_link_hover": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "28",
+                "left": "0",
+                "isLinked": false
+              },
+              "_animation": "fadeInDown",
+              "_animation_delay": 200
+            },
+            "elements": []
+          },
+          {
+            "id": "w_singleH_title",
+            "elType": "widget",
+            "widgetType": "theme-post-title",
+            "settings": {
+              "header_size": "h1",
+              "align": "left",
+              "title_color": "#ffffff",
+              "link": {
+                "is_external": "",
+                "nofollow": "",
+                "custom_attributes": ""
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 96
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 64
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 40
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -2
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "32",
+                "left": "0",
+                "isLinked": false
+              },
+              "_animation": "fadeInUp",
+              "_animation_delay": 300
+            },
+            "elements": []
+          },
+          {
+            "id": "w_singleH_excerpt",
+            "elType": "widget",
+            "widgetType": "theme-post-excerpt",
+            "settings": {
+              "color_text": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 20
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.55
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              },
+              "_animation": "fadeInUp",
+              "_animation_delay": 450
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_singleContent",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "structure": "20",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "24",
+        "bottom": "80",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "0",
+        "right": "16",
+        "bottom": "56",
+        "left": "16",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 880
+      }
+    },
+    "elements": [
+      {
+        "id": "col_singleContent",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "background_background": "classic",
+          "background_color": "#141311",
+          "border_border": "solid",
+          "border_width": {
+            "unit": "px",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": true
+          },
+          "border_color": "#242220",
+          "padding": {
+            "unit": "px",
+            "top": "64",
+            "right": "72",
+            "bottom": "64",
+            "left": "72",
+            "isLinked": false
+          },
+          "padding_tablet": {
+            "unit": "px",
+            "top": "48",
+            "right": "40",
+            "bottom": "48",
+            "left": "40",
+            "isLinked": false
+          },
+          "padding_mobile": {
+            "unit": "px",
+            "top": "32",
+            "right": "24",
+            "bottom": "32",
+            "left": "24",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "w_singleContent",
+            "elType": "widget",
+            "widgetType": "theme-post-content",
+            "settings": {
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 17
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 16
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.75
+              },
+              "paragraph_spacing": {
+                "unit": "px",
+                "size": 24
+              },
+              "heading_color": "#ffffff",
+              "h2_typography_typography": "custom",
+              "h2_typography_font_family": "Anton",
+              "h2_typography_font_weight": "400",
+              "h2_typography_font_size": {
+                "unit": "px",
+                "size": 40
+              },
+              "h2_typography_font_size_mobile": {
+                "unit": "px",
+                "size": 30
+              },
+              "h2_typography_line_height": {
+                "unit": "em",
+                "size": 1.05
+              },
+              "h2_typography_letter_spacing": {
+                "unit": "px",
+                "size": -0.5
+              },
+              "h2_typography_text_transform": "uppercase",
+              "h3_typography_typography": "custom",
+              "h3_typography_font_family": "Anton",
+              "h3_typography_font_weight": "400",
+              "h3_typography_font_size": {
+                "unit": "px",
+                "size": 28
+              },
+              "h3_typography_font_size_mobile": {
+                "unit": "px",
+                "size": 24
+              },
+              "h3_typography_line_height": {
+                "unit": "em",
+                "size": 1.1
+              },
+              "h3_typography_text_transform": "uppercase",
+              "h4_typography_typography": "custom",
+              "h4_typography_font_family": "Space Mono",
+              "h4_typography_font_weight": "700",
+              "h4_typography_font_size": {
+                "unit": "px",
+                "size": 13
+              },
+              "h4_typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "h4_typography_text_transform": "uppercase",
+              "link_color": "#14b8a6",
+              "link_color_hover": "#ffffff",
+              "blockquote_color": "#ffffff",
+              "blockquote_border_color": "#c8102e",
+              "blockquote_typography_typography": "custom",
+              "blockquote_typography_font_family": "Inter",
+              "blockquote_typography_font_weight": "500",
+              "blockquote_typography_font_size": {
+                "unit": "px",
+                "size": 22
+              },
+              "blockquote_typography_font_size_mobile": {
+                "unit": "px",
+                "size": 18
+              },
+              "blockquote_typography_line_height": {
+                "unit": "em",
+                "size": 1.5
+              },
+              "blockquote_typography_font_style": "italic",
+              "list_color": "#cfcfcf",
+              "list_typography_typography": "custom",
+              "list_typography_font_family": "Inter",
+              "list_typography_font_size": {
+                "unit": "px",
+                "size": 17
+              },
+              "list_typography_line_height": {
+                "unit": "em",
+                "size": 1.7
+              }
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_singleFoot",
+    "elType": "section",
+    "settings": {
+      "layout": "boxed",
+      "structure": "20",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "24",
+        "bottom": "60",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "0",
+        "right": "16",
+        "bottom": "40",
+        "left": "16",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 880
+      }
+    },
+    "elements": [
+      {
+        "id": "col_singleFoot",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_singleFoot_link",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"text-align:center;margin:32px 0 0 0;\"><a href=\"/billybeck/blog/\" style=\"color:#14b8a6;text-decoration:none;letter-spacing:3px;text-transform:uppercase;font-weight:700;border-bottom:1px solid #14b8a6;padding-bottom:2px;font-size:11px;\">&larr; ALL FIELD NOTES</a></p>",
+              "align": "center",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono"
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_singleCTA",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "background_background": "classic",
+      "background_color": "#0a0a0a",
+      "background_overlay_background": "gradient",
+      "background_overlay_color": "#c8102e",
+      "background_overlay_color_stop": {
+        "unit": "%",
+        "size": 0
+      },
+      "background_overlay_color_b": "#0a0a0a",
+      "background_overlay_color_b_stop": {
+        "unit": "%",
+        "size": 60
+      },
+      "background_overlay_gradient_type": "radial",
+      "background_overlay_gradient_position": "center center",
+      "background_overlay_opacity": {
+        "unit": "px",
+        "size": 0.18
+      },
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "1",
+        "right": "0",
+        "bottom": "1",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "#1a1a1a",
+      "padding": {
+        "unit": "px",
+        "top": "100",
+        "right": "24",
+        "bottom": "120",
+        "left": "24",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "64",
+        "right": "16",
+        "bottom": "80",
+        "left": "16",
+        "isLinked": false
+      },
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_singleCTA",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "content_position": "center",
+          "align": "center"
+        },
+        "elements": [
+          {
+            "id": "w_singleCTA_eb",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "— KEEP UP  ·  ONE EMAIL, ONE LESSON, ONE LIFT",
+              "header_size": "div",
+              "align": "center",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_singleCTA_t",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "Field Notes hit Mondays.",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Anton",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 80
+              },
+              "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 56
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 36
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 0.95
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": -2
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_singleCTA_s",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"max-width:680px;margin:0 auto 36px auto;text-align:center;\">No spam. No re-warmed Instagram captions. No 12-tab pop-ups telling you to download a meal plan. Just one note, every Monday, from the floor of the gym.</p>",
+              "align": "center",
+              "text_color": "#cfcfcf",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18
+              },
+              "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 15
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_singleCTA_btn",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Get the Field Notes",
+              "link": {
+                "url": "/billybeck/contact"
+              },
+              "align": "center",
+              "size": "md",
+              "button_text_color": "#0a0a0a",
+              "background_color": "#14b8a6",
+              "hover_color": "#ffffff",
+              "button_background_hover_color": "#0a0a0a",
+              "border_border": "solid",
+              "border_width": {
+                "unit": "px",
+                "top": "1",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": true
+              },
+              "border_color": "#14b8a6",
+              "button_hover_border_color": "#14b8a6",
+              "border_radius": {
+                "unit": "px",
+                "top": "999",
+                "right": "999",
+                "bottom": "999",
+                "left": "999",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 12
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "16",
+                "right": "32",
+                "bottom": "16",
+                "left": "32",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-arrow-right",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_indent": {
+                "unit": "px",
+                "size": 8
+              },
+              "hover_animation": "pulse"
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_footer",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "structure": "40",
+      "background_background": "classic",
+      "background_color": "#060606",
+      "padding": {
+        "unit": "px",
+        "top": "88",
+        "right": "40",
+        "bottom": "56",
+        "left": "40",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "64",
+        "right": "20",
+        "bottom": "32",
+        "left": "20",
+        "isLinked": false
+      },
+      "gap": "extended",
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "1",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "#1a1a1a",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_ft_b",
+        "elType": "column",
+        "settings": {
+          "_column_size": 40
+        },
+        "elements": [
+          {
+            "id": "w_ft_b1",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "BILLY BECK III",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 26
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "4",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ft_b2",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "/ LIVE LIKE A LION",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 4
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ft_b3",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Two-time winner of the World's Best Personal Trainer Contest. Fitness Hall of Fame. Trainer to Tony Robbins and elite NFL athletes.</p>",
+              "text_color": "#888888",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.7
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "24",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ft_social",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<div style=\"display:flex;gap:10px;align-items:center;\"><a href=\"#\" aria-label=\"Instagram\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5Zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm5.25-3a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z\"/></svg></a><a href=\"#\" aria-label=\"YouTube\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"/></svg></a><a href=\"#\" aria-label=\"Facebook\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M13.5 22v-8h2.7l.4-3.3H13.5V8.6c0-1 .3-1.6 1.6-1.6H17V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.5V14h2.8v8h3.2Z\"/></svg></a><a href=\"#\" aria-label=\"X\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z\"/></svg></a></div>",
+              "text_color": "#d8d8d8",
+              "align": "left"
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_ft_ex",
+        "elType": "column",
+        "settings": {
+          "_column_size": 20
+        },
+        "elements": [
+          {
+            "id": "w_ft_eh",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "EXPLORE",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ft_el",
+            "elType": "widget",
+            "widgetType": "icon-list",
+            "settings": {
+              "icon_list": [
+                {
+                  "_id": "ex1",
+                  "text": "About Billy",
+                  "link": {
+                    "url": "/billybeck/billy-beck-iii"
+                  }
+                },
+                {
+                  "_id": "ex2",
+                  "text": "Coaching",
+                  "link": {
+                    "url": "/billybeck/coaching"
+                  }
+                },
+                {
+                  "_id": "ex3",
+                  "text": "Testimonials",
+                  "link": {
+                    "url": "/billybeck/testimonials"
+                  }
+                },
+                {
+                  "_id": "ex4",
+                  "text": "Blog",
+                  "link": {
+                    "url": "/billybeck/blog"
+                  }
+                }
+              ],
+              "view": "traditional",
+              "space_between": {
+                "unit": "px",
+                "size": 10
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 0
+              },
+              "text_color": "#9a9a9a",
+              "text_color_hover": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.5
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_ft_rs",
+        "elType": "column",
+        "settings": {
+          "_column_size": 20
+        },
+        "elements": [
+          {
+            "id": "w_ft_rh",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "RESOURCES",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ft_rl",
+            "elType": "widget",
+            "widgetType": "icon-list",
+            "settings": {
+              "icon_list": [
+                {
+                  "_id": "rs1",
+                  "text": "Lean & Mean Book",
+                  "link": {
+                    "url": "https://www.amazon.com/LEAN-MEAN-Burning-Secrets-Personal-ebook/dp/B0089G9MR4/",
+                    "is_external": "on"
+                  }
+                },
+                {
+                  "_id": "rs2",
+                  "text": "Supplements",
+                  "link": {
+                    "url": "/billybeck/supplements/recommendedproteinpowders"
+                  }
+                },
+                {
+                  "_id": "rs3",
+                  "text": "Mental Conditioning",
+                  "link": {
+                    "url": "/billybeck/mental-conditioning/the-blueprint-towards-your-best-self"
+                  }
+                },
+                {
+                  "_id": "rs4",
+                  "text": "Videos",
+                  "link": {
+                    "url": "/billybeck/videos/stairway-to-heaven"
+                  }
+                }
+              ],
+              "view": "traditional",
+              "space_between": {
+                "unit": "px",
+                "size": 10
+              },
+              "icon_size": {
+                "unit": "px",
+                "size": 0
+              },
+              "text_color": "#9a9a9a",
+              "text_color_hover": "#ffffff",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.5
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_ft_ct",
+        "elType": "column",
+        "settings": {
+          "_column_size": 20
+        },
+        "elements": [
+          {
+            "id": "w_ft_ch",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "WORK WITH BILLY",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#14b8a6",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 3
+              },
+              "typography_text_transform": "uppercase",
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "20",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ft_cb",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p>Serious about transforming your body and mind? Start the conversation.</p>",
+              "text_color": "#9a9a9a",
+              "typography_typography": "custom",
+              "typography_font_family": "Inter",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 14
+              },
+              "typography_line_height": {
+                "unit": "em",
+                "size": 1.6
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "18",
+                "left": "0",
+                "isLinked": false
+              }
+            }
+          },
+          {
+            "id": "w_ft_cbt",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Contact Billy",
+              "link": {
+                "url": "/billybeck/contact"
+              },
+              "align": "left",
+              "size": "sm",
+              "button_text_color": "#ffffff",
+              "background_color": "transparent",
+              "hover_color": "#0a0a0a",
+              "button_background_hover_color": "#c8102e",
+              "border_border": "solid",
+              "border_width": {
+                "unit": "px",
+                "top": "1",
+                "right": "1",
+                "bottom": "1",
+                "left": "1",
+                "isLinked": true
+              },
+              "border_color": "#c8102e",
+              "button_hover_border_color": "#c8102e",
+              "border_radius": {
+                "unit": "px",
+                "top": "2",
+                "right": "2",
+                "bottom": "2",
+                "left": "2",
+                "isLinked": true
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "700",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 2
+              },
+              "typography_text_transform": "uppercase",
+              "text_padding": {
+                "unit": "px",
+                "top": "12",
+                "right": "22",
+                "bottom": "12",
+                "left": "22",
+                "isLinked": false
+              },
+              "selected_icon": {
+                "value": "fas fa-arrow-right",
+                "library": "fa-solid"
+              },
+              "icon_align": "right",
+              "icon_indent": {
+                "unit": "px",
+                "size": 8
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sec_subfooter",
+    "elType": "section",
+    "settings": {
+      "layout": "full_width",
+      "stretch_section": "section-stretched",
+      "structure": "20",
+      "background_background": "classic",
+      "background_color": "#060606",
+      "padding": {
+        "unit": "px",
+        "top": "24",
+        "right": "40",
+        "bottom": "24",
+        "left": "40",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "px",
+        "top": "20",
+        "right": "20",
+        "bottom": "20",
+        "left": "20",
+        "isLinked": false
+      },
+      "border_border": "solid",
+      "border_width": {
+        "unit": "px",
+        "top": "1",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      "border_color": "#1a1a1a",
+      "content_width": {
+        "unit": "px",
+        "size": 1240
+      }
+    },
+    "elements": [
+      {
+        "id": "col_sf_1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "w_sf_copy",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "© 2026 BILLY BECK III. ALL RIGHTS RESERVED.",
+              "header_size": "div",
+              "align": "left",
+              "title_color": "#6a6a6a",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 1
+              },
+              "typography_text_transform": "uppercase"
+            }
+          }
+        ]
+      },
+      {
+        "id": "col_sf_2",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "content_position": "center"
+        },
+        "elements": [
+          {
+            "id": "w_sf_legal",
+            "elType": "widget",
+            "widgetType": "icon-list",
+            "settings": {
+              "icon_list": [
+                {
+                  "_id": "sfl1",
+                  "text": "Privacy",
+                  "link": {
+                    "url": "/billybeck/privacy-policy"
+                  }
+                },
+                {
+                  "_id": "sfl2",
+                  "text": "Terms",
+                  "link": {
+                    "url": "/billybeck/terms"
+                  }
+                },
+                {
+                  "_id": "sfl3",
+                  "text": "Contact",
+                  "link": {
+                    "url": "/billybeck/contact"
+                  }
+                }
+              ],
+              "view": "inline",
+              "icon_size": {
+                "unit": "px",
+                "size": 0
+              },
+              "space_between": {
+                "unit": "px",
+                "size": 4
+              },
+              "space_inline": {
+                "unit": "px",
+                "size": 24
+              },
+              "text_color": "#6a6a6a",
+              "text_color_hover": "#c8102e",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "typography_font_weight": "400",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 11
+              },
+              "typography_letter_spacing": {
+                "unit": "px",
+                "size": 1
+              },
+              "typography_text_transform": "uppercase",
+              "align": "right"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

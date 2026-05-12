@@ -37,3 +37,18 @@ layouts/*.compact.json
 layouts/*.escaped.txt
 layouts/*.escaped.chunks.txt
 layouts/_preview.html
+
+# Local scratch (docx text dumps, MCP probe outputs, live HTML snapshots)
+.tmp/
+
+# One-off MCP probes (kept local; not part of the deploy toolchain)
+layouts/probe.mjs
+layouts/probe2.mjs
+layouts/probe3.mjs
+
+# Local pull snapshots (dot-prefixed, written by pull-* scripts)
+layouts/.*.json
+layouts/*.live.json
+
+# Stray verify-post html dumps
+layouts/*verify-post.html

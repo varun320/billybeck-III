@@ -171,7 +171,7 @@ async function run() {
     const result = await updatePage(pageId, {
       _elementor_data: JSON.stringify(layout),
       _elementor_edit_mode: 'builder',
-      _elementor_version: '3.18.0',
+      _elementor_version: '4.0.7',
     }, extra);
     console.log(`Updated page ${result.id} (${result.link})`);
     return;
@@ -188,7 +188,7 @@ async function run() {
     const result = await createPage(title, {
       _elementor_data: JSON.stringify(layout),
       _elementor_edit_mode: 'builder',
-      _elementor_version: '3.18.0',
+      _elementor_version: '4.0.7',
       _wp_page_template: 'elementor_canvas',
     }, { slug, status, template: 'elementor_canvas' });
     console.log(`Created page ${result.id} (/${result.slug}) — ${result.link}`);
@@ -211,7 +211,7 @@ async function run() {
     await updatePage(18, {
       _elementor_data: JSON.stringify(home),
       _elementor_edit_mode: 'builder',
-      _elementor_version: '3.18.0',
+      _elementor_version: '4.0.7',
     }, { title: { raw: 'Billy Beck III — Forge Your Strongest Self' }, status: 'publish' });
     console.log('  ✓ home updated');
 
@@ -229,7 +229,7 @@ async function run() {
       const meta = {
         _elementor_data: JSON.stringify(layout),
         _elementor_edit_mode: 'builder',
-        _elementor_version: '3.18.0',
+        _elementor_version: '4.0.7',
         _wp_page_template: 'elementor_canvas',
       };
       if (arr.length) {
