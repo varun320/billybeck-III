@@ -15,7 +15,8 @@
       "background_overlay_gradient_type": "radial",
       "background_overlay_gradient_position": "center top",
       "background_overlay_opacity": {"unit": "px", "size": 0.22},
-      "padding": {"unit": "px", "top": "140", "right": "24", "bottom": "100", "left": "24", "isLinked": false},
+      "padding": {"unit": "px", "top": "140", "right": "40", "bottom": "100", "left": "40", "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": "100", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
       "padding_mobile": {"unit": "px", "top": "80", "right": "16", "bottom": "64", "left": "16", "isLinked": false},
       "content_width": {"unit": "px", "size": 1240}
     },
@@ -43,7 +44,8 @@
               "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "28", "left": "0", "isLinked": false},
               "_animation": "fadeInDown",
               "_animation_delay": 100
-            }
+            },
+            "elements": []
           },
           {
             "id": "w_blogH_t",
@@ -66,7 +68,8 @@
               "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false},
               "_animation": "fadeInUp",
               "_animation_delay": 250
-            }
+            },
+            "elements": []
           },
           {
             "id": "w_blogH_s",
@@ -83,46 +86,51 @@
               "typography_line_height": {"unit": "em", "size": 1.55},
               "_animation": "fadeInUp",
               "_animation_delay": 400
-            }
+            },
+            "elements": []
+          },
+          {
+            "id": "w_blogH_note",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"max-width:680px;color:#7a7a7a;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-top:32px;\">New Field Notes posted from the WordPress dashboard appear here automatically.</p>",
+              "typography_typography": "custom",
+              "typography_font_family": "Space Mono",
+              "_animation": "fadeIn",
+              "_animation_delay": 600
+            },
+            "elements": []
           }
         ]
       }
     ]
   },
   {
-    "id": "sec_blogF",
+    "id": "sec_blogFeat",
     "elType": "section",
     "settings": {
       "layout": "boxed",
       "structure": "20",
       "background_background": "classic",
       "background_color": "#0a0a0a",
-      "padding": {"unit": "px", "top": "40", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
-      "padding_mobile": {"unit": "px", "top": "24", "right": "16", "bottom": "56", "left": "16", "isLinked": false},
-      "gap": "extended",
+      "padding": {"unit": "px", "top": "40", "right": "40", "bottom": "40", "left": "40", "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": "32", "right": "24", "bottom": "32", "left": "24", "isLinked": false},
+      "padding_mobile": {"unit": "px", "top": "24", "right": "16", "bottom": "24", "left": "16", "isLinked": false},
       "content_width": {"unit": "px", "size": 1240}
     },
     "elements": [
       {
-        "id": "col_blogF",
+        "id": "col_blogFeat",
         "elType": "column",
-        "settings": {
-          "_column_size": 100,
-          "background_background": "classic",
-          "background_color": "#141311",
-          "border_border": "solid",
-          "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-          "border_color": "#242220",
-          "padding": {"unit": "px", "top": "56", "right": "56", "bottom": "56", "left": "56", "isLinked": false},
-          "padding_mobile": {"unit": "px", "top": "32", "right": "24", "bottom": "32", "left": "24", "isLinked": false}
-        },
+        "settings": {"_column_size": 100},
         "elements": [
           {
-            "id": "w_blogF_eb",
+            "id": "w_blogFeat_eb",
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "01 / FEATURED  ·  8 MIN READ  ·  TRAINING",
+              "title": "— FEATURED  ·  THE FOUNDATION  ·  READ THIS FIRST",
               "header_size": "div",
               "align": "left",
               "title_color": "#c8102e",
@@ -132,599 +140,174 @@
               "typography_font_size": {"unit": "px", "size": 11},
               "typography_letter_spacing": {"unit": "px", "size": 4},
               "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogF_t",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "How a 67-year-old Mr. Universe<br>still out-lifts you.",
-              "header_size": "h2",
-              "align": "left",
-              "title_color": "#ffffff",
-              "link": {"url": "#"},
-              "typography_typography": "custom",
-              "typography_font_family": "Anton",
-              "typography_font_weight": "400",
-              "typography_font_size": {"unit": "px", "size": 64},
-              "typography_font_size_tablet": {"unit": "px", "size": 44},
-              "typography_font_size_mobile": {"unit": "px", "size": 30},
-              "typography_line_height": {"unit": "em", "size": 0.95},
-              "typography_letter_spacing": {"unit": "px", "size": -1},
-              "typography_text_transform": "uppercase",
               "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
-            }
+            },
+            "elements": []
           },
           {
-            "id": "w_blogF_s",
+            "id": "w_blogFeat_posts",
             "elType": "widget",
-            "widgetType": "text-editor",
+            "widgetType": "posts",
             "settings": {
-              "editor": "<p style=\"max-width:760px;\">It isn't genetics. It isn't drugs. It isn't morning routines borrowed from billionaires. It's eighty years of refusing to phone in the warm-up &mdash; and a brutally honest measurement system most lifters can't stomach. Here's the framework I've used on world champions, executives, and one very stubborn 67-year-old in the mirror.</p>",
-              "text_color": "#cfcfcf",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_weight": "400",
-              "typography_font_size": {"unit": "px", "size": 17},
-              "typography_line_height": {"unit": "em", "size": 1.7},
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogF_btn",
-            "elType": "widget",
-            "widgetType": "button",
-            "settings": {
-              "text": "Read the Field Note",
-              "link": {"url": "#"},
-              "align": "left",
-              "size": "md",
-              "button_text_color": "#0a0a0a",
-              "background_color": "#c8102e",
-              "hover_color": "#ffffff",
-              "button_background_hover_color": "#0a0a0a",
-              "border_border": "solid",
-              "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-              "border_color": "#c8102e",
-              "button_hover_border_color": "#14b8a6",
-              "border_radius": {"unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true},
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_weight": "700",
-              "typography_font_size": {"unit": "px", "size": 12},
-              "typography_letter_spacing": {"unit": "px", "size": 2},
-              "typography_text_transform": "uppercase",
-              "text_padding": {"unit": "px", "top": "16", "right": "32", "bottom": "16", "left": "32", "isLinked": false},
-              "selected_icon": {"value": "fas fa-arrow-right", "library": "fa-solid"},
-              "icon_align": "right",
-              "icon_indent": {"unit": "px", "size": 8}
-            }
+              "_skin": "classic",
+              "posts_post_type": "post",
+              "posts_posts_per_page": "1",
+              "posts_include": ["manual_selection"],
+              "posts_include_ids": [115],
+              "orderby": "date",
+              "order": "desc",
+              "pagination_type": "",
+              "classic_columns": "1",
+              "classic_columns_tablet": "1",
+              "classic_columns_mobile": "1",
+              "classic_row_gap": {"unit": "px", "size": 0},
+              "classic_show_image": "",
+              "classic_show_title": "yes",
+              "classic_title_tag": "h2",
+              "classic_show_excerpt": "yes",
+              "classic_excerpt_length": 50,
+              "classic_show_metadata": "yes",
+              "classic_meta_data": ["categories", "time"],
+              "classic_meta_separator": "  ·  ",
+              "classic_show_read_more": "yes",
+              "classic_read_more_text": "Read the Field Note  →",
+              "classic_box_padding": {"unit": "px", "top": "56", "right": "56", "bottom": "56", "left": "56", "isLinked": false},
+              "classic_box_padding_mobile": {"unit": "px", "top": "32", "right": "24", "bottom": "32", "left": "24", "isLinked": false},
+              "classic_box_border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+              "classic_box_border_color": "#242220",
+              "classic_box_background_color": "#141311",
+              "classic_meta_spacing": {"unit": "px", "size": 16},
+              "classic_meta_color": "#c8102e",
+              "classic_meta_typography_typography": "custom",
+              "classic_meta_typography_font_family": "Space Mono",
+              "classic_meta_typography_font_weight": "700",
+              "classic_meta_typography_font_size": {"unit": "px", "size": 11},
+              "classic_meta_typography_letter_spacing": {"unit": "px", "size": 3},
+              "classic_meta_typography_text_transform": "uppercase",
+              "classic_meta_separator_color": "#c8102e",
+              "classic_title_spacing": {"unit": "px", "size": 24},
+              "classic_title_color": "#ffffff",
+              "classic_title_color_hover": "#c8102e",
+              "classic_title_typography_typography": "custom",
+              "classic_title_typography_font_family": "Anton",
+              "classic_title_typography_font_weight": "400",
+              "classic_title_typography_font_size": {"unit": "px", "size": 64},
+              "classic_title_typography_font_size_tablet": {"unit": "px", "size": 44},
+              "classic_title_typography_font_size_mobile": {"unit": "px", "size": 30},
+              "classic_title_typography_line_height": {"unit": "em", "size": 0.95},
+              "classic_title_typography_letter_spacing": {"unit": "px", "size": -1},
+              "classic_title_typography_text_transform": "uppercase",
+              "classic_excerpt_spacing": {"unit": "px", "size": 32},
+              "classic_excerpt_color": "#cfcfcf",
+              "classic_excerpt_typography_typography": "custom",
+              "classic_excerpt_typography_font_family": "Inter",
+              "classic_excerpt_typography_font_weight": "400",
+              "classic_excerpt_typography_font_size": {"unit": "px", "size": 17},
+              "classic_excerpt_typography_line_height": {"unit": "em", "size": 1.7},
+              "classic_read_more_color": "#0a0a0a",
+              "classic_read_more_color_hover": "#ffffff",
+              "classic_read_more_typography_typography": "custom",
+              "classic_read_more_typography_font_family": "Space Mono",
+              "classic_read_more_typography_font_weight": "700",
+              "classic_read_more_typography_font_size": {"unit": "px", "size": 12},
+              "classic_read_more_typography_letter_spacing": {"unit": "px", "size": 2},
+              "classic_read_more_typography_text_transform": "uppercase"
+            },
+            "elements": []
           }
         ]
       }
     ]
   },
   {
-    "id": "sec_blogG1",
+    "id": "sec_blogGrid",
     "elType": "section",
     "settings": {
       "layout": "boxed",
-      "structure": "30",
+      "structure": "20",
       "background_background": "classic",
       "background_color": "#0a0a0a",
-      "padding": {"unit": "px", "top": "20", "right": "24", "bottom": "20", "left": "24", "isLinked": false},
-      "padding_mobile": {"unit": "px", "top": "12", "right": "16", "bottom": "12", "left": "16", "isLinked": false},
-      "gap": "extended",
-      "content_width": {"unit": "px", "size": 1240}
-    },
-    "elements": [
-      {
-        "id": "col_blogG1a",
-        "elType": "column",
-        "settings": {
-          "_column_size": 33.333,
-          "_column_size_tablet": 50,
-          "_column_size_mobile": 100,
-          "background_background": "classic",
-          "background_color": "#141311",
-          "border_border": "solid",
-          "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-          "border_color": "#242220",
-          "padding": {"unit": "px", "top": "36", "right": "32", "bottom": "36", "left": "32", "isLinked": false},
-          "padding_mobile": {"unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false}
-        },
-        "elements": [
-          {
-            "id": "w_blogG1a_eb",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "02 / NUTRITION  ·  5 MIN",
-              "header_size": "div",
-              "align": "left",
-              "title_color": "#14b8a6",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_weight": "700",
-              "typography_font_size": {"unit": "px", "size": 10},
-              "typography_letter_spacing": {"unit": "px", "size": 3},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1a_t",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "Lions don't eat<br>like rabbits.",
-              "header_size": "h3",
-              "align": "left",
-              "title_color": "#ffffff",
-              "link": {"url": "#"},
-              "typography_typography": "custom",
-              "typography_font_family": "Anton",
-              "typography_font_weight": "400",
-              "typography_font_size": {"unit": "px", "size": 30},
-              "typography_font_size_mobile": {"unit": "px", "size": 26},
-              "typography_line_height": {"unit": "em", "size": 0.95},
-              "typography_letter_spacing": {"unit": "px", "size": -0.5},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1a_s",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p>The plant-based dogma is a marketing budget. Here's what apex performers actually fuel with &mdash; and the macro math behind it.</p>",
-              "text_color": "#9a9a9a",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_size": {"unit": "px", "size": 14},
-              "typography_line_height": {"unit": "em", "size": 1.65},
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1a_l",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p style=\"margin:0;\"><a href=\"#\" style=\"color:#14b8a6;text-decoration:none;letter-spacing:2px;text-transform:uppercase;font-weight:700;border-bottom:1px solid #14b8a6;padding-bottom:2px;\">Read &rarr;</a></p>",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_size": {"unit": "px", "size": 11}
-            }
-          }
-        ]
-      },
-      {
-        "id": "col_blogG1b",
-        "elType": "column",
-        "settings": {
-          "_column_size": 33.333,
-          "_column_size_tablet": 50,
-          "_column_size_mobile": 100,
-          "background_background": "classic",
-          "background_color": "#141311",
-          "border_border": "solid",
-          "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-          "border_color": "#242220",
-          "padding": {"unit": "px", "top": "36", "right": "32", "bottom": "36", "left": "32", "isLinked": false},
-          "padding_mobile": {"unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false}
-        },
-        "elements": [
-          {
-            "id": "w_blogG1b_eb",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "03 / MINDSET  ·  3 MIN",
-              "header_size": "div",
-              "align": "left",
-              "title_color": "#14b8a6",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_weight": "700",
-              "typography_font_size": {"unit": "px", "size": 10},
-              "typography_letter_spacing": {"unit": "px", "size": 3},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1b_t",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "The 5 a.m.<br>discipline lie.",
-              "header_size": "h3",
-              "align": "left",
-              "title_color": "#ffffff",
-              "link": {"url": "#"},
-              "typography_typography": "custom",
-              "typography_font_family": "Anton",
-              "typography_font_weight": "400",
-              "typography_font_size": {"unit": "px", "size": 30},
-              "typography_font_size_mobile": {"unit": "px", "size": 26},
-              "typography_line_height": {"unit": "em", "size": 0.95},
-              "typography_letter_spacing": {"unit": "px", "size": -0.5},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1b_s",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p>Waking early isn't discipline. It's a sleep schedule. Here's the difference, and what discipline actually looks like at the rep level.</p>",
-              "text_color": "#9a9a9a",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_size": {"unit": "px", "size": 14},
-              "typography_line_height": {"unit": "em", "size": 1.65},
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1b_l",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p style=\"margin:0;\"><a href=\"#\" style=\"color:#14b8a6;text-decoration:none;letter-spacing:2px;text-transform:uppercase;font-weight:700;border-bottom:1px solid #14b8a6;padding-bottom:2px;\">Read &rarr;</a></p>",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_size": {"unit": "px", "size": 11}
-            }
-          }
-        ]
-      },
-      {
-        "id": "col_blogG1c",
-        "elType": "column",
-        "settings": {
-          "_column_size": 33.334,
-          "_column_size_tablet": 100,
-          "_column_size_mobile": 100,
-          "background_background": "classic",
-          "background_color": "#141311",
-          "border_border": "solid",
-          "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-          "border_color": "#242220",
-          "padding": {"unit": "px", "top": "36", "right": "32", "bottom": "36", "left": "32", "isLinked": false},
-          "padding_mobile": {"unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false}
-        },
-        "elements": [
-          {
-            "id": "w_blogG1c_eb",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "04 / RECOVERY  ·  6 MIN",
-              "header_size": "div",
-              "align": "left",
-              "title_color": "#14b8a6",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_weight": "700",
-              "typography_font_size": {"unit": "px", "size": 10},
-              "typography_letter_spacing": {"unit": "px", "size": 3},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1c_t",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "Recovery is<br>the workout.",
-              "header_size": "h3",
-              "align": "left",
-              "title_color": "#ffffff",
-              "link": {"url": "#"},
-              "typography_typography": "custom",
-              "typography_font_family": "Anton",
-              "typography_font_weight": "400",
-              "typography_font_size": {"unit": "px", "size": 30},
-              "typography_font_size_mobile": {"unit": "px", "size": 26},
-              "typography_line_height": {"unit": "em", "size": 0.95},
-              "typography_letter_spacing": {"unit": "px", "size": -0.5},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1c_s",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p>Adaptation happens between sessions, not during them. The recovery framework I prescribe to clients in their forties, fifties, and sixties.</p>",
-              "text_color": "#9a9a9a",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_size": {"unit": "px", "size": 14},
-              "typography_line_height": {"unit": "em", "size": 1.65},
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG1c_l",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p style=\"margin:0;\"><a href=\"#\" style=\"color:#14b8a6;text-decoration:none;letter-spacing:2px;text-transform:uppercase;font-weight:700;border-bottom:1px solid #14b8a6;padding-bottom:2px;\">Read &rarr;</a></p>",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_size": {"unit": "px", "size": 11}
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "sec_blogG2",
-    "elType": "section",
-    "settings": {
-      "layout": "boxed",
-      "structure": "30",
-      "background_background": "classic",
-      "background_color": "#0a0a0a",
-      "padding": {"unit": "px", "top": "20", "right": "24", "bottom": "80", "left": "24", "isLinked": false},
+      "padding": {"unit": "px", "top": "20", "right": "40", "bottom": "80", "left": "40", "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": "16", "right": "24", "bottom": "64", "left": "24", "isLinked": false},
       "padding_mobile": {"unit": "px", "top": "12", "right": "16", "bottom": "56", "left": "16", "isLinked": false},
-      "gap": "extended",
       "content_width": {"unit": "px", "size": 1240}
     },
     "elements": [
       {
-        "id": "col_blogG2a",
+        "id": "col_blogGrid",
         "elType": "column",
-        "settings": {
-          "_column_size": 33.333,
-          "_column_size_tablet": 50,
-          "_column_size_mobile": 100,
-          "background_background": "classic",
-          "background_color": "#141311",
-          "border_border": "solid",
-          "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-          "border_color": "#242220",
-          "padding": {"unit": "px", "top": "36", "right": "32", "bottom": "36", "left": "32", "isLinked": false},
-          "padding_mobile": {"unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false}
-        },
+        "settings": {"_column_size": 100},
         "elements": [
           {
-            "id": "w_blogG2a_eb",
+            "id": "w_blogGrid_posts",
             "elType": "widget",
-            "widgetType": "heading",
+            "widgetType": "posts",
             "settings": {
-              "title": "05 / BUSINESS  ·  4 MIN",
-              "header_size": "div",
-              "align": "left",
-              "title_color": "#14b8a6",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_weight": "700",
-              "typography_font_size": {"unit": "px", "size": 10},
-              "typography_letter_spacing": {"unit": "px", "size": 3},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2a_t",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "I don't coach<br>everyone.",
-              "header_size": "h3",
-              "align": "left",
-              "title_color": "#ffffff",
-              "link": {"url": "#"},
-              "typography_typography": "custom",
-              "typography_font_family": "Anton",
-              "typography_font_weight": "400",
-              "typography_font_size": {"unit": "px", "size": 30},
-              "typography_font_size_mobile": {"unit": "px", "size": 26},
-              "typography_line_height": {"unit": "em", "size": 0.95},
-              "typography_letter_spacing": {"unit": "px", "size": -0.5},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2a_s",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p>Why the waitlist exists, what disqualifies a candidate, and how I decide who's ready for the work and who isn't.</p>",
-              "text_color": "#9a9a9a",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_size": {"unit": "px", "size": 14},
-              "typography_line_height": {"unit": "em", "size": 1.65},
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2a_l",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p style=\"margin:0;\"><a href=\"#\" style=\"color:#14b8a6;text-decoration:none;letter-spacing:2px;text-transform:uppercase;font-weight:700;border-bottom:1px solid #14b8a6;padding-bottom:2px;\">Read &rarr;</a></p>",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_size": {"unit": "px", "size": 11}
-            }
-          }
-        ]
-      },
-      {
-        "id": "col_blogG2b",
-        "elType": "column",
-        "settings": {
-          "_column_size": 33.333,
-          "_column_size_tablet": 50,
-          "_column_size_mobile": 100,
-          "background_background": "classic",
-          "background_color": "#141311",
-          "border_border": "solid",
-          "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-          "border_color": "#242220",
-          "padding": {"unit": "px", "top": "36", "right": "32", "bottom": "36", "left": "32", "isLinked": false},
-          "padding_mobile": {"unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false}
-        },
-        "elements": [
-          {
-            "id": "w_blogG2b_eb",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "06 / PHILOSOPHY  ·  5 MIN",
-              "header_size": "div",
-              "align": "left",
-              "title_color": "#14b8a6",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_weight": "700",
-              "typography_font_size": {"unit": "px", "size": 10},
-              "typography_letter_spacing": {"unit": "px", "size": 3},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2b_t",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "The apex<br>predator mindset.",
-              "header_size": "h3",
-              "align": "left",
-              "title_color": "#ffffff",
-              "link": {"url": "#"},
-              "typography_typography": "custom",
-              "typography_font_family": "Anton",
-              "typography_font_weight": "400",
-              "typography_font_size": {"unit": "px", "size": 30},
-              "typography_font_size_mobile": {"unit": "px", "size": 26},
-              "typography_line_height": {"unit": "em", "size": 0.95},
-              "typography_letter_spacing": {"unit": "px", "size": -0.5},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2b_s",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p>Lions don't lose sleep over the opinions of sheep. The mental architecture I've borrowed, stolen, and built across forty years of coaching champions.</p>",
-              "text_color": "#9a9a9a",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_size": {"unit": "px", "size": 14},
-              "typography_line_height": {"unit": "em", "size": 1.65},
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2b_l",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p style=\"margin:0;\"><a href=\"#\" style=\"color:#14b8a6;text-decoration:none;letter-spacing:2px;text-transform:uppercase;font-weight:700;border-bottom:1px solid #14b8a6;padding-bottom:2px;\">Read &rarr;</a></p>",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_size": {"unit": "px", "size": 11}
-            }
-          }
-        ]
-      },
-      {
-        "id": "col_blogG2c",
-        "elType": "column",
-        "settings": {
-          "_column_size": 33.334,
-          "_column_size_tablet": 100,
-          "_column_size_mobile": 100,
-          "background_background": "classic",
-          "background_color": "#141311",
-          "border_border": "solid",
-          "border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
-          "border_color": "#242220",
-          "padding": {"unit": "px", "top": "36", "right": "32", "bottom": "36", "left": "32", "isLinked": false},
-          "padding_mobile": {"unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false}
-        },
-        "elements": [
-          {
-            "id": "w_blogG2c_eb",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "07 / TRAINING  ·  7 MIN",
-              "header_size": "div",
-              "align": "left",
-              "title_color": "#14b8a6",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_weight": "700",
-              "typography_font_size": {"unit": "px", "size": 10},
-              "typography_letter_spacing": {"unit": "px", "size": 3},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2c_t",
-            "elType": "widget",
-            "widgetType": "heading",
-            "settings": {
-              "title": "The 6-week<br>strength reset.",
-              "header_size": "h3",
-              "align": "left",
-              "title_color": "#ffffff",
-              "link": {"url": "#"},
-              "typography_typography": "custom",
-              "typography_font_family": "Anton",
-              "typography_font_weight": "400",
-              "typography_font_size": {"unit": "px", "size": 30},
-              "typography_font_size_mobile": {"unit": "px", "size": 26},
-              "typography_line_height": {"unit": "em", "size": 0.95},
-              "typography_letter_spacing": {"unit": "px", "size": -0.5},
-              "typography_text_transform": "uppercase",
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2c_s",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p>Stuck on a plateau? The exact protocol I run in week one when a new client walks in stronger on paper than they are in the gym.</p>",
-              "text_color": "#9a9a9a",
-              "typography_typography": "custom",
-              "typography_font_family": "Inter",
-              "typography_font_size": {"unit": "px", "size": 14},
-              "typography_line_height": {"unit": "em", "size": 1.65},
-              "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
-            }
-          },
-          {
-            "id": "w_blogG2c_l",
-            "elType": "widget",
-            "widgetType": "text-editor",
-            "settings": {
-              "editor": "<p style=\"margin:0;\"><a href=\"#\" style=\"color:#14b8a6;text-decoration:none;letter-spacing:2px;text-transform:uppercase;font-weight:700;border-bottom:1px solid #14b8a6;padding-bottom:2px;\">Read &rarr;</a></p>",
-              "typography_typography": "custom",
-              "typography_font_family": "Space Mono",
-              "typography_font_size": {"unit": "px", "size": 11}
-            }
+              "_skin": "classic",
+              "posts_post_type": "post",
+              "posts_posts_per_page": "9",
+              "posts_exclude": ["manual_selection"],
+              "posts_exclude_ids": [115],
+              "orderby": "date",
+              "order": "desc",
+              "pagination_type": "load_more_on_click",
+              "load_more_button_text": "Load more Field Notes",
+              "classic_columns": "3",
+              "classic_columns_tablet": "2",
+              "classic_columns_mobile": "1",
+              "classic_row_gap": {"unit": "px", "size": 24},
+              "classic_show_image": "",
+              "classic_show_title": "yes",
+              "classic_title_tag": "h3",
+              "classic_show_excerpt": "yes",
+              "classic_excerpt_length": 22,
+              "classic_show_metadata": "yes",
+              "classic_meta_data": ["categories", "time"],
+              "classic_meta_separator": "  ·  ",
+              "classic_show_read_more": "yes",
+              "classic_read_more_text": "Read  →",
+              "classic_box_padding": {"unit": "px", "top": "36", "right": "32", "bottom": "36", "left": "32", "isLinked": false},
+              "classic_box_padding_mobile": {"unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false},
+              "classic_box_border_width": {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true},
+              "classic_box_border_color": "#242220",
+              "classic_box_background_color": "#141311",
+              "classic_meta_spacing": {"unit": "px", "size": 16},
+              "classic_meta_color": "#14b8a6",
+              "classic_meta_separator_color": "#14b8a6",
+              "classic_meta_typography_typography": "custom",
+              "classic_meta_typography_font_family": "Space Mono",
+              "classic_meta_typography_font_weight": "700",
+              "classic_meta_typography_font_size": {"unit": "px", "size": 10},
+              "classic_meta_typography_letter_spacing": {"unit": "px", "size": 3},
+              "classic_meta_typography_text_transform": "uppercase",
+              "classic_title_spacing": {"unit": "px", "size": 16},
+              "classic_title_color": "#ffffff",
+              "classic_title_color_hover": "#14b8a6",
+              "classic_title_typography_typography": "custom",
+              "classic_title_typography_font_family": "Anton",
+              "classic_title_typography_font_weight": "400",
+              "classic_title_typography_font_size": {"unit": "px", "size": 30},
+              "classic_title_typography_font_size_mobile": {"unit": "px", "size": 26},
+              "classic_title_typography_line_height": {"unit": "em", "size": 0.95},
+              "classic_title_typography_letter_spacing": {"unit": "px", "size": -0.5},
+              "classic_title_typography_text_transform": "uppercase",
+              "classic_excerpt_spacing": {"unit": "px", "size": 20},
+              "classic_excerpt_color": "#9a9a9a",
+              "classic_excerpt_typography_typography": "custom",
+              "classic_excerpt_typography_font_family": "Inter",
+              "classic_excerpt_typography_font_weight": "400",
+              "classic_excerpt_typography_font_size": {"unit": "px", "size": 14},
+              "classic_excerpt_typography_line_height": {"unit": "em", "size": 1.65},
+              "classic_read_more_color": "#14b8a6",
+              "classic_read_more_color_hover": "#ffffff",
+              "classic_read_more_typography_typography": "custom",
+              "classic_read_more_typography_font_family": "Space Mono",
+              "classic_read_more_typography_font_weight": "700",
+              "classic_read_more_typography_font_size": {"unit": "px", "size": 11},
+              "classic_read_more_typography_letter_spacing": {"unit": "px", "size": 2},
+              "classic_read_more_typography_text_transform": "uppercase"
+            },
+            "elements": []
           }
         ]
       }
@@ -749,7 +332,8 @@
       "border_border": "solid",
       "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "1", "left": "0", "isLinked": false},
       "border_color": "#1a1a1a",
-      "padding": {"unit": "px", "top": "100", "right": "24", "bottom": "120", "left": "24", "isLinked": false},
+      "padding": {"unit": "px", "top": "100", "right": "40", "bottom": "120", "left": "40", "isLinked": false},
+      "padding_tablet": {"unit": "px", "top": "80", "right": "24", "bottom": "100", "left": "24", "isLinked": false},
       "padding_mobile": {"unit": "px", "top": "64", "right": "16", "bottom": "80", "left": "16", "isLinked": false},
       "content_width": {"unit": "px", "size": 1240}
     },
@@ -764,7 +348,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "08 / KEEP UP  ·  ONE EMAIL, ONE LESSON, ONE LIFT",
+              "title": "— KEEP UP  ·  ONE EMAIL, ONE LESSON, ONE LIFT",
               "header_size": "div",
               "align": "center",
               "title_color": "#14b8a6",
@@ -775,7 +359,8 @@
               "typography_letter_spacing": {"unit": "px", "size": 4},
               "typography_text_transform": "uppercase",
               "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
-            }
+            },
+            "elements": []
           },
           {
             "id": "w_blogCTA_t",
@@ -796,7 +381,8 @@
               "typography_letter_spacing": {"unit": "px", "size": -2},
               "typography_text_transform": "uppercase",
               "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false}
-            }
+            },
+            "elements": []
           },
           {
             "id": "w_blogCTA_s",
@@ -812,7 +398,8 @@
               "typography_font_size": {"unit": "px", "size": 18},
               "typography_font_size_mobile": {"unit": "px", "size": 15},
               "typography_line_height": {"unit": "em", "size": 1.6}
-            }
+            },
+            "elements": []
           },
           {
             "id": "w_blogCTA_btn",
@@ -843,7 +430,8 @@
               "icon_align": "right",
               "icon_indent": {"unit": "px", "size": 8},
               "hover_animation": "pulse"
-            }
+            },
+            "elements": []
           }
         ]
       }
