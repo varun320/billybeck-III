@@ -622,7 +622,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p>But the real story isn't the accolades — it's the thousand-plus lions forged. Real people. Real receipts. No filters, no shortcuts, no shame. <strong>Challenge creates change.</strong></p>",
+              "editor": "<p>But the real story isn't the accolades — it's the thousand-plus people who refused limitation, kept their word to themselves, and used the body as proof that the rest of their life could change too. <strong>The body is the proving ground. Self-mastery is the source.</strong></p>",
               "text_color": "#9a9a9a",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -2224,7 +2224,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"max-width:680px;\">Practiced daily. Compounded for life. Eight non-negotiables that turn the lion thesis into a body, a calendar, and a way of being.</p>",
+              "editor": "<p style=\"max-width:680px;\">Practiced daily. Compounded for life. The unsexy daily actions that install identity and make transformation inevitable. <strong>Discipline is not punishment. Discipline is freedom.</strong></p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -3207,7 +3207,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "Live like a lion.<br>Not a fearful lamb.",
+              "title": "Not the lamb.<br>The lion.",
               "header_size": "h2",
               "align": "center",
               "title_color": "#0a0a0a",

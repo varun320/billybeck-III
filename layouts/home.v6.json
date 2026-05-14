@@ -725,7 +725,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"text-align:center;max-width:680px;margin:0 auto;\">Not another fitness program. A movement of self-mastery for heart-driven leaders who refuse to live like a fearful lamb. <strong>Where the mind goes, the body follows.</strong></p>",
+              "editor": "<p style=\"text-align:center;max-width:680px;margin:0 auto;\">Not another fitness program. A self-mastery movement where the body is the proving ground and your transformation becomes the proof. <strong>Refuse limitation. Call forth the lion within.</strong></p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -934,7 +934,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"text-align:center;max-width:680px;margin:0 auto;\">Two ways to live. One builds the body, the work, and the legacy you were built for. The other waits for the right time and dies waiting. <strong>Live like a lion, not a fearful lamb.</strong></p>",
+              "editor": "<p style=\"text-align:center;max-width:680px;margin:0 auto;\">Two voices live in every person. The lamb hides inside stories of fear. The lion stands forward in truth. <strong>The lamb survives by hiding. The lion lives by standing forward.</strong></p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -1106,15 +1106,15 @@
               "icon_list": [
                 {
                   "_id": "li1",
-                  "text": "Sculpts the body — and the life around it."
+                  "text": "Builds the body as proof of a higher identity."
                 },
                 {
                   "_id": "li2",
-                  "text": "Leads, serves, contributes — without burning out."
+                  "text": "Strong enough to lead. Compassionate enough to serve."
                 },
                 {
                   "_id": "li3",
-                  "text": "Treats challenge as the path, not the obstacle."
+                  "text": "Refuses every story of limitation."
                 },
                 {
                   "_id": "li4",
@@ -1267,7 +1267,7 @@
                 },
                 {
                   "_id": "la2",
-                  "text": "Outsources health, body, energy — to luck."
+                  "text": "Outsources identity, worth, and direction — to anyone but self."
                 },
                 {
                   "_id": "la3",
@@ -1441,7 +1441,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"text-align:center;max-width:660px;margin:0 auto;\">Three pillars hold up everything we do. Train them in order and the rest takes care of itself. <strong>Challenge creates change.</strong></p>",
+              "editor": "<p style=\"text-align:center;max-width:660px;margin:0 auto;\">The Three Pillars of Power. Training creates the stimulus. Eating provides the raw materials. Mental conditioning gives you the identity to follow through. <strong>One missing pillar, limited results.</strong></p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -1601,7 +1601,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p>The body is the proving ground. Strength, conditioning, mobility — built deliberately, sustained for life. Not punishment. Practice.</p>",
+              "editor": "<p>The body is the proving ground. Resistance, conditioning, mobility, structural balance — the stimulus the body must respond to. Training is the question you ask the body. Recovery is the answer.</p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -1715,7 +1715,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p>Food is fuel for the work, not a battleground. No fads, no shortcuts. Real macros, real food, ruthless simplicity, sustained energy.</p>",
+              "editor": "<p>Principles, not punishment. Enough protein. Real food. Hydration. Calories that match the work. We do not demonize food — we teach function.</p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -1829,7 +1829,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p>Where the mind goes the body follows. Train the inner game first — focus, courage, identity — and the outer transformation becomes inevitable.</p>",
+              "editor": "<p>Awareness and command of thoughts, emotions, and identity. Most people fail not because the plan is impossible, but because the mind was never conditioned to sustain the work.</p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",

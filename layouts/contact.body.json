@@ -137,7 +137,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"max-width:680px;\">Send the brief. If the fit's right, Billy's team follows up within 48 hours. If it isn't, we'll tell you honestly &mdash; and point you somewhere that is. <strong>Lions help lions.</strong></p>",
+              "editor": "<p style=\"max-width:680px;\">Send the brief. If the fit's right, Billy's team follows up within 48 hours. If it isn't, we'll tell you honestly &mdash; and point you somewhere that is. <strong>Strong enough to serve.</strong></p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",

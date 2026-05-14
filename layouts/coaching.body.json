@@ -137,7 +137,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"max-width:720px;\">Coaching runs in <strong>closed cohorts</strong>. New seats open only when current Lions graduate — first come, first considered. Get on the waitlist now to be reviewed for the next intake.</p>",
+              "editor": "<p style=\"max-width:720px;\">Coaching runs in <strong>closed cohorts</strong>. Not gatekeeping — the only honest way to do this work. We educate and empower, not create dependence. New seats open when current cohort members graduate. Get on the waitlist for the next intake.</p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -1844,7 +1844,7 @@
             "elType": "widget",
             "widgetType": "heading",
             "settings": {
-              "title": "&ldquo;I don't sell workouts.<br>I forge lions who refuse to live like lambs.&rdquo;",
+              "title": "&ldquo;I don't sell workouts.<br>I help people refuse limitation.&rdquo;",
               "header_size": "h2",
               "align": "center",
               "title_color": "#ffffff",
