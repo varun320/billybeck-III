@@ -10,9 +10,9 @@
       "background_color": "#0a0a0a",
       "padding": {
         "unit": "px",
-        "top": "20",
+        "top": "0",
         "right": "56",
-        "bottom": "20",
+        "bottom": "0",
         "left": "56",
         "isLinked": false
       },
@@ -45,9 +45,7 @@
         "desktop",
         "tablet"
       ],
-      "sticky_offset": 0,
       "sticky_offset_tablet": 0,
-      "sticky_effects_offset": 0,
       "z_index": 999
     },
     "elements": [
@@ -64,7 +62,6 @@
           {
             "id": "w_nav_logo",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "BILLY BECK III",
               "header_size": "div",
@@ -104,12 +101,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_nav_tag",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "/ LIVE LIKE A LION",
               "header_size": "div",
@@ -144,9 +142,12 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_nav_links",
@@ -161,7 +162,6 @@
           {
             "id": "w_nav_links",
             "elType": "widget",
-            "widgetType": "text-editor",
             "settings": {
               "editor": "<p style=\"text-align:center;margin:0;letter-spacing:2px;text-transform:uppercase;\"><a data-page=\"about\" href=\"/billybeck/billy-beck-iii\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">About</a><a data-page=\"coaching\" href=\"/billybeck/coaching\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Coaching</a><a data-page=\"testimonials\" data-active=\"true\" href=\"/billybeck/testimonials\" style=\"color:#c8102e;text-decoration:none;font-weight:700;margin:0 14px;padding:6px 0;border-bottom:1px solid #c8102e;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Testimonials</a><a data-page=\"blog\" href=\"/billybeck/blog\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Blog</a><a data-page=\"contact\" href=\"/billybeck/contact\" style=\"color:#9a9a9a;text-decoration:none;margin:0 14px;padding:6px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"if(!this.dataset.active){this.style.color='#9a9a9a';this.style.borderColor='transparent';}\">Contact</a><a data-page=\"legion\" href=\"/billybeck/legion-of-lions\" style=\"color:#14b8a6;text-decoration:none;margin:0 4px 0 18px;padding:7px 16px;border:1px solid #14b8a6;border-radius:999px;background-color:transparent;transition:background-color .25s,color .25s,box-shadow .25s,transform .25s;display:inline-block;letter-spacing:2px;box-shadow:0 0 0 0 rgba(20,184,166,0);\" onmouseover=\"this.style.backgroundColor='#14b8a6';this.style.color='#0a0a0a';this.style.boxShadow='0 0 18px rgba(20,184,166,0.45)';this.style.transform='translateY(-1px)';\" onmouseout=\"if(!this.dataset.active){this.style.backgroundColor='transparent';this.style.color='#14b8a6';this.style.boxShadow='0 0 0 0 rgba(20,184,166,0)';this.style.transform='translateY(0)';}\">&#9876; Legion</a></p>",
               "align": "center",
@@ -190,9 +190,12 @@
                 "unit": "em",
                 "size": 1
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_nav_cta",
@@ -207,14 +210,12 @@
           {
             "id": "w_nav_cta",
             "elType": "widget",
-            "widgetType": "button",
             "settings": {
               "text": "Join",
               "link": {
                 "url": "/billybeck/legion-of-lions"
               },
               "align": "right",
-              "size": "sm",
               "button_text_color": "#0a0a0a",
               "background_color": "#c8102e",
               "hover_color": "#ffffff",
@@ -280,11 +281,15 @@
                 "size": 8
               },
               "hover_animation": "pulse"
-            }
+            },
+            "elements": [],
+            "widgetType": "button"
           }
-        ]
+        ],
+        "isInner": false
       }
-    ]
+    ],
+    "isInner": false
   },
   {
     "id": "sec_nav_m_top",
@@ -321,7 +326,6 @@
         "mobile"
       ],
       "sticky_offset_mobile": 0,
-      "sticky_effects_offset": 0,
       "z_index": 999
     },
     "elements": [
@@ -340,7 +344,6 @@
           {
             "id": "w_nav_m_logo",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "BILLY BECK III",
               "header_size": "div",
@@ -364,9 +367,12 @@
                 "unit": "em",
                 "size": 1
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_nav_m_cta",
@@ -383,7 +389,6 @@
           {
             "id": "w_nav_m_cta",
             "elType": "widget",
-            "widgetType": "button",
             "settings": {
               "text": "Join",
               "link": {
@@ -442,11 +447,15 @@
                 "unit": "px",
                 "size": 6
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "button"
           }
-        ]
+        ],
+        "isInner": false
       }
-    ]
+    ],
+    "isInner": false
   },
   {
     "id": "sec_nav_m_menu",
@@ -481,7 +490,6 @@
         "mobile"
       ],
       "sticky_offset_mobile": 56,
-      "sticky_effects_offset": 0,
       "z_index": 998
     },
     "elements": [
@@ -503,7 +511,6 @@
           {
             "id": "w_nav_m_toggle",
             "elType": "widget",
-            "widgetType": "toggle",
             "settings": {
               "tabs": [
                 {
@@ -512,7 +519,6 @@
                   "tab_content": "<ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"about\" href=\"/billybeck/billy-beck-iii\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">ABOUT</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"coaching\" href=\"/billybeck/coaching\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">COACHING (WAITLIST)</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"testimonials\" data-active=\"true\" href=\"/billybeck/testimonials\" style=\"display:block;padding:14px 0;color:#c8102e;text-decoration:none;font-weight:700;border-left:3px solid #c8102e;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">TESTIMONIALS</a></li><li style=\"border-bottom:1px solid #1a1a1a;\"><a data-page=\"blog\" href=\"/billybeck/blog\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">BLOG</a></li><li><a data-page=\"contact\" href=\"/billybeck/contact\" style=\"display:block;padding:14px 0;color:#ffffff;text-decoration:none;border-left:3px solid transparent;padding-left:12px;transition:color .2s,border-color .2s,background-color .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';this.style.backgroundColor='#0f0f0f';\" onmouseout=\"if(!this.dataset.active){this.style.color='#ffffff';this.style.borderColor='transparent';this.style.backgroundColor='transparent';}\">CONTACT</a></li><li style=\"padding:14px 12px 6px 12px;\"><a data-page=\"legion\" href=\"/billybeck/legion-of-lions\" style=\"display:block;padding:14px 16px;color:#14b8a6;text-decoration:none;border:1px solid #14b8a6;border-radius:999px;background-color:transparent;text-align:center;letter-spacing:3px;transition:background-color .25s,color .25s,box-shadow .25s;box-shadow:0 0 0 0 rgba(20,184,166,0);\" onmouseover=\"this.style.backgroundColor='#14b8a6';this.style.color='#0a0a0a';this.style.boxShadow='0 0 22px rgba(20,184,166,0.45)';\" onmouseout=\"if(!this.dataset.active){this.style.backgroundColor='transparent';this.style.color='#14b8a6';this.style.boxShadow='0 0 0 0 rgba(20,184,166,0)';}\">&#9876; JOIN THE LEGION</a></li></ul>"
                 }
               ],
-              "title_html_tag": "div",
               "selected_icon": {
                 "value": "fas fa-bars",
                 "library": "fa-solid"
@@ -572,11 +578,15 @@
                 "left": "20",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "toggle"
           }
-        ]
+        ],
+        "isInner": false
       }
-    ]
+    ],
+    "isInner": false
   },
   {
     "id": "sec_tst_hero",
@@ -716,7 +726,7 @@
             "elType": "widget",
             "widgetType": "text-editor",
             "settings": {
-              "editor": "<p style=\"max-width:720px;\">Elite athletes. Founders. TV personalities. Heart-driven leaders who chose the lion. The work — documented, unfiltered, no AI-faked photos. <strong>Challenge creates change.</strong></p>",
+              "editor": "<p style=\"max-width:720px;\">Elite athletes. Founders. Heart-driven leaders who refused limitation. Their bodies changed — but the body was the proof. The deeper transformation was identity. <strong>The body is proof. Self-mastery is the source.</strong></p>",
               "text_color": "#cfcfcf",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -3328,7 +3338,6 @@
           {
             "id": "w_ft_b1",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "BILLY BECK III",
               "header_size": "div",
@@ -3353,12 +3362,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_b2",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "/ LIVE LIKE A LION",
               "header_size": "div",
@@ -3384,12 +3394,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_b3",
             "elType": "widget",
-            "widgetType": "text-editor",
             "settings": {
               "editor": "<p>Two-time winner of the World's Best Personal Trainer Contest. Fitness Hall of Fame. Trainer to Tony Robbins and elite NFL athletes.</p>",
               "text_color": "#888888",
@@ -3411,19 +3422,23 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
           },
           {
             "id": "w_ft_social",
             "elType": "widget",
-            "widgetType": "text-editor",
             "settings": {
               "editor": "<div style=\"display:flex;gap:10px;align-items:center;\"><a href=\"#\" aria-label=\"Instagram\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5Zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm5.25-3a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z\"/></svg></a><a href=\"#\" aria-label=\"YouTube\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"/></svg></a><a href=\"#\" aria-label=\"Facebook\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M13.5 22v-8h2.7l.4-3.3H13.5V8.6c0-1 .3-1.6 1.6-1.6H17V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.5V14h2.8v8h3.2Z\"/></svg></a><a href=\"#\" aria-label=\"X\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z\"/></svg></a></div>",
               "text_color": "#d8d8d8",
               "align": "left"
-            }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_ft_ex",
@@ -3435,7 +3450,6 @@
           {
             "id": "w_ft_eh",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "EXPLORE",
               "header_size": "div",
@@ -3461,12 +3475,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_el",
             "elType": "widget",
-            "widgetType": "icon-list",
             "settings": {
               "icon_list": [
                 {
@@ -3498,7 +3513,6 @@
                   }
                 }
               ],
-              "view": "traditional",
               "space_between": {
                 "unit": "px",
                 "size": 10
@@ -3519,9 +3533,12 @@
                 "unit": "em",
                 "size": 1.5
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "icon-list"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_ft_rs",
@@ -3533,7 +3550,6 @@
           {
             "id": "w_ft_rh",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "RESOURCES",
               "header_size": "div",
@@ -3559,12 +3575,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_rl",
             "elType": "widget",
-            "widgetType": "icon-list",
             "settings": {
               "icon_list": [
                 {
@@ -3597,7 +3614,6 @@
                   }
                 }
               ],
-              "view": "traditional",
               "space_between": {
                 "unit": "px",
                 "size": 10
@@ -3618,9 +3634,12 @@
                 "unit": "em",
                 "size": 1.5
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "icon-list"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_ft_ct",
@@ -3632,7 +3651,6 @@
           {
             "id": "w_ft_ch",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "WORK WITH BILLY",
               "header_size": "div",
@@ -3658,12 +3676,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_cb",
             "elType": "widget",
-            "widgetType": "text-editor",
             "settings": {
               "editor": "<p>Serious about transforming your body and mind? Start the conversation.</p>",
               "text_color": "#9a9a9a",
@@ -3685,19 +3704,19 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
           },
           {
             "id": "w_ft_cbt",
             "elType": "widget",
-            "widgetType": "button",
             "settings": {
               "text": "Contact Billy",
               "link": {
                 "url": "/billybeck/contact"
               },
               "align": "left",
-              "size": "sm",
               "button_text_color": "#ffffff",
               "background_color": "transparent",
               "hover_color": "#0a0a0a",
@@ -3750,11 +3769,15 @@
                 "unit": "px",
                 "size": 8
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "button"
           }
-        ]
+        ],
+        "isInner": false
       }
-    ]
+    ],
+    "isInner": false
   },
   {
     "id": "sec_subfooter",
@@ -3808,7 +3831,6 @@
           {
             "id": "w_sf_copy",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "© 2026 BILLY BECK III. ALL RIGHTS RESERVED.",
               "header_size": "div",
@@ -3826,9 +3848,12 @@
                 "size": 1
               },
               "typography_text_transform": "uppercase"
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_sf_2",
@@ -3841,7 +3866,6 @@
           {
             "id": "w_sf_legal",
             "elType": "widget",
-            "widgetType": "icon-list",
             "settings": {
               "icon_list": [
                 {
@@ -3894,10 +3918,14 @@
               },
               "typography_text_transform": "uppercase",
               "align": "right"
-            }
+            },
+            "elements": [],
+            "widgetType": "icon-list"
           }
-        ]
+        ],
+        "isInner": false
       }
-    ]
+    ],
+    "isInner": false
   }
 ]

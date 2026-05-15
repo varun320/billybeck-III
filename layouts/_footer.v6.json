@@ -51,7 +51,6 @@
           {
             "id": "w_ft_b1",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "BILLY BECK III",
               "header_size": "div",
@@ -76,12 +75,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_b2",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "/ LIVE LIKE A LION",
               "header_size": "div",
@@ -107,12 +107,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_b3",
             "elType": "widget",
-            "widgetType": "text-editor",
             "settings": {
               "editor": "<p>Two-time winner of the World's Best Personal Trainer Contest. Fitness Hall of Fame. Trainer to Tony Robbins and elite NFL athletes.</p>",
               "text_color": "#888888",
@@ -134,19 +135,23 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
           },
           {
             "id": "w_ft_social",
             "elType": "widget",
-            "widgetType": "text-editor",
             "settings": {
               "editor": "<div style=\"display:flex;gap:10px;align-items:center;\"><a href=\"#\" aria-label=\"Instagram\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5Zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm5.25-3a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z\"/></svg></a><a href=\"#\" aria-label=\"YouTube\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"/></svg></a><a href=\"#\" aria-label=\"Facebook\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M13.5 22v-8h2.7l.4-3.3H13.5V8.6c0-1 .3-1.6 1.6-1.6H17V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.5V14h2.8v8h3.2Z\"/></svg></a><a href=\"#\" aria-label=\"X\" style=\"display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #262626;border-radius:2px;color:#d8d8d8;text-decoration:none;transition:all .2s;\" onmouseover=\"this.style.color='#c8102e';this.style.borderColor='#c8102e';\" onmouseout=\"this.style.color='#d8d8d8';this.style.borderColor='#262626';\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z\"/></svg></a></div>",
               "text_color": "#d8d8d8",
               "align": "left"
-            }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_ft_ex",
@@ -158,7 +163,6 @@
           {
             "id": "w_ft_eh",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "EXPLORE",
               "header_size": "div",
@@ -184,44 +188,44 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_el",
             "elType": "widget",
-            "widgetType": "icon-list",
             "settings": {
               "icon_list": [
                 {
                   "_id": "ex1",
                   "text": "About Billy",
                   "link": {
-                    "url": "/billy-beck-iii"
+                    "url": "/billybeck/billy-beck-iii"
                   }
                 },
                 {
                   "_id": "ex2",
                   "text": "Coaching",
                   "link": {
-                    "url": "/coaching"
+                    "url": "/billybeck/coaching"
                   }
                 },
                 {
                   "_id": "ex3",
                   "text": "Testimonials",
                   "link": {
-                    "url": "/testimonials"
+                    "url": "/billybeck/testimonials"
                   }
                 },
                 {
                   "_id": "ex4",
                   "text": "Blog",
                   "link": {
-                    "url": "/blog"
+                    "url": "/billybeck/blog"
                   }
                 }
               ],
-              "view": "traditional",
               "space_between": {
                 "unit": "px",
                 "size": 10
@@ -242,9 +246,12 @@
                 "unit": "em",
                 "size": 1.5
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "icon-list"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_ft_rs",
@@ -256,7 +263,6 @@
           {
             "id": "w_ft_rh",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "RESOURCES",
               "header_size": "div",
@@ -282,12 +288,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_rl",
             "elType": "widget",
-            "widgetType": "icon-list",
             "settings": {
               "icon_list": [
                 {
@@ -302,25 +309,24 @@
                   "_id": "rs2",
                   "text": "Supplements",
                   "link": {
-                    "url": "/supplements/recommendedproteinpowders"
+                    "url": "/billybeck/supplements/recommendedproteinpowders"
                   }
                 },
                 {
                   "_id": "rs3",
                   "text": "Mental Conditioning",
                   "link": {
-                    "url": "/mental-conditioning/the-blueprint-towards-your-best-self"
+                    "url": "/billybeck/mental-conditioning/the-blueprint-towards-your-best-self"
                   }
                 },
                 {
                   "_id": "rs4",
                   "text": "Videos",
                   "link": {
-                    "url": "/videos/stairway-to-heaven"
+                    "url": "/billybeck/videos/stairway-to-heaven"
                   }
                 }
               ],
-              "view": "traditional",
               "space_between": {
                 "unit": "px",
                 "size": 10
@@ -341,9 +347,12 @@
                 "unit": "em",
                 "size": 1.5
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "icon-list"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_ft_ct",
@@ -355,7 +364,6 @@
           {
             "id": "w_ft_ch",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "WORK WITH BILLY",
               "header_size": "div",
@@ -381,12 +389,13 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           },
           {
             "id": "w_ft_cb",
             "elType": "widget",
-            "widgetType": "text-editor",
             "settings": {
               "editor": "<p>Serious about transforming your body and mind? Start the conversation.</p>",
               "text_color": "#9a9a9a",
@@ -408,19 +417,19 @@
                 "left": "0",
                 "isLinked": false
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
           },
           {
             "id": "w_ft_cbt",
             "elType": "widget",
-            "widgetType": "button",
             "settings": {
               "text": "Contact Billy",
               "link": {
-                "url": "/contact"
+                "url": "/billybeck/contact"
               },
               "align": "left",
-              "size": "sm",
               "button_text_color": "#ffffff",
               "background_color": "transparent",
               "hover_color": "#0a0a0a",
@@ -473,11 +482,15 @@
                 "unit": "px",
                 "size": 8
               }
-            }
+            },
+            "elements": [],
+            "widgetType": "button"
           }
-        ]
+        ],
+        "isInner": false
       }
-    ]
+    ],
+    "isInner": false
   },
   {
     "id": "sec_subfooter",
@@ -531,7 +544,6 @@
           {
             "id": "w_sf_copy",
             "elType": "widget",
-            "widgetType": "heading",
             "settings": {
               "title": "© 2026 BILLY BECK III. ALL RIGHTS RESERVED.",
               "header_size": "div",
@@ -549,9 +561,12 @@
                 "size": 1
               },
               "typography_text_transform": "uppercase"
-            }
+            },
+            "elements": [],
+            "widgetType": "heading"
           }
-        ]
+        ],
+        "isInner": false
       },
       {
         "id": "col_sf_2",
@@ -564,28 +579,27 @@
           {
             "id": "w_sf_legal",
             "elType": "widget",
-            "widgetType": "icon-list",
             "settings": {
               "icon_list": [
                 {
                   "_id": "sfl1",
                   "text": "Privacy",
                   "link": {
-                    "url": "/privacy-policy"
+                    "url": "/billybeck/privacy-policy"
                   }
                 },
                 {
                   "_id": "sfl2",
                   "text": "Terms",
                   "link": {
-                    "url": "/terms"
+                    "url": "/billybeck/terms"
                   }
                 },
                 {
                   "_id": "sfl3",
                   "text": "Contact",
                   "link": {
-                    "url": "/contact"
+                    "url": "/billybeck/contact"
                   }
                 }
               ],
@@ -617,10 +631,14 @@
               },
               "typography_text_transform": "uppercase",
               "align": "right"
-            }
+            },
+            "elements": [],
+            "widgetType": "icon-list"
           }
-        ]
+        ],
+        "isInner": false
       }
-    ]
+    ],
+    "isInner": false
   }
 ]
